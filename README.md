@@ -1,40 +1,56 @@
-# KultMoveBot - version 2.0
-Python Discord bot for "move rolls" in the PBTA roleplaying game "Kult Divinity Lost".
+# 💀 KULT Bot 🤖
 
-### UPGRADED TO VERSION 2.0: 7 MAY 2020
+Bot para Discord escrito em Python para _Movimentos_ no PbtA **KULT: Divindade Perdida**.
 
-- See below for usage instructions.
-- Huge thanks to Frost for taking on the mammoth task of extracting and formatting ALL of the Kult moves for use here.
+Versão em Português do Brasil. 🇧🇷
 
-###  Kult discord servers:
+Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot.
 
-- KULT: Elysium https://discord.gg/QmRB2qN
-- KULT: Divinity Lost Unoffical Discord https://discord.gg/PCkbkxJ
+- Veja abaixo instruções de uso
+
+## Traduçao para Português do Brasil (em progresso)
+
+- [ ] Movimentos Básicos
+- [ ] Vantagens
+- [ ] Desvantagens
+- [x] Instruções
+  + [ ] Instruções de como rodar localmente
+- [ ] Ajuda e exemplos
+
+### Como colaborar
+
+- [Abra pull requests][creating-a-pr] com traduções diretamente em `all_moves.yml`
+- Reporte bugs ou problemas de tradução como [Issues][issues]
+- Jogue KULT e divulgue o Bot
+
+[creating-a-pr]: https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
+[issues]: https://github.com/paulodiovani/kult-move-bot-ptbr/issues
+
+### Agradecimentos
+
+- Admins do Discord de KULT BR
+- Buró Editora, que trouxe este excelente RPG para o Brasil
+
+## Servidores Brasileiros do KULT no Discord
+
+- KULT Brasil
  
-### Bugs
-- none yet!
-- Ping me (\@mik) on either of the above servers if you notice any bot issues...
+## Instalação
 
-### Feature requests
-- they will come...
+Instale em um servidor do Discord (você vai precisar de privilégios de admin) pelo link:
 
-### Installation
+https://discordapp.com/api/oauth2/authorize?client_id=812513909198159904&permissions=0&scope=bot
 
-Install into a discord server (you will need admin privileges) via:
+## Instruções de uso
 
-https://discordapp.com/api/oauth2/authorize?client_id=625741456082206740&permissions=0&scope=bot
-
-### Instructions 
-
-Once the bot is installed, typing
+Uma vez instalado, digite
 
 `
 !move ?
 `
 
-in Discord will produce the Usage message below.
+O Discord vai responder com a mensagem de uso abaixo.
 
-#### Usage:
 
 ```
 !move ? - displays this message
@@ -45,7 +61,7 @@ in Discord will produce the Usage message below.
 !move xxx +2 - roll to perform Move xxx with positive modifier +2
 ```
 
-#### Moves:
+### Movimentos
 
 ```
 - Use the full move name (lower-case, no spaces) when rolling.
@@ -56,7 +72,7 @@ in Discord will produce the Usage message below.
   !move ah +1
 ```
 
-#### Move shortcuts:
+### Atalhos de movimentos
 
 ```
 - Avoid Harm (ah): roll + Reflexes
@@ -74,7 +90,7 @@ in Discord will produce the Usage message below.
 - Non-standard move (non): roll + Modifier
 ```
 
-#### Anomalies (full move name):
+### Anomalies (full move name):
 
 ```
 - Influence Other - NPC: !move influenceothernpc
