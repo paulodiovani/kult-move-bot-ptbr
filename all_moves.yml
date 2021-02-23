@@ -1,8 +1,10 @@
+# Basic Moves
+
 ah: &ah
-  - '# Avoid Harm'
-  - ' You emerge completely unharmed.'
-  - You avoid the worst of it, but the GM decides if you end up in a bad spot, lose something, or partially sustain Harm.
-  - You were too slow to react or you made a bad judgment call. Perhaps you didn’t avoid any Harm at all, or you ended up in an even worse spot than before. The GM makes a Move.
+  - '# Evitar Dano'
+  - Você sai completamente ileso.
+  - Você evita o pior, mas o Mestre decide se você fica numa posição ruim, se perde alguma coisa ou leva Dano parcial.
+  - Você demorou demais para reagir ou tomou uma decisão ruim. Talvez você não tenha evitado nenhum dano ou tenha acabado numa situação ainda pior do que antes. O Mestre realiza um movimento.
 
 ei: &ei
   - '# Endure Injury'
@@ -70,7 +72,17 @@ hoh: &hoh
   - You may modify the subsequent roll by +1/−1.
   - Your interference has unintended consequences. The GM makes a Move.
 
+non:
+  - '# Non-standard move'
+  - You succeed
+  - There are complications
+  - The GM makes a Move
+
+# Basic Moves Aliases
+
 avoidharm: *ah
+evitardano: *ah
+ed: *ah
 
 endureinjury: *ei
 
@@ -94,11 +106,7 @@ investigate: *inv
 
 helporhinder: *hoh
 
-non:
-  - '# Non-standard move'
-  - You succeed
-  - There are complications
-  - The GM makes a Move
+# Advantages and Disadvantages
 
 academicnetwork:
   - '# Academic Network'

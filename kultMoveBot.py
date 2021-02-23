@@ -126,14 +126,14 @@ async def on_message(message):
                     outcome = options[2]
 
                 dice += options[0]
-                dice += "\nResult: "
+                dice += "\nRESULTADO: "
                 dice += str(roll[0])
                 dice += " + "
                 dice += str(roll[1])
                 dice += mod
                 dice += " = "
                 dice += str(result)
-                dice += "\nOutcome: "
+                dice += "\nEFEITO: "
                 dice += outcome
 
         dice += '```'
