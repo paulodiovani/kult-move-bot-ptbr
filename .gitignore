@@ -1,7 +1,4 @@
-devToken.txt
-modeFile.txt
-prodToken.txt
-runBot.sh
-nohup.out
+.env
 __pycache__
 bot-env
+nohup.out

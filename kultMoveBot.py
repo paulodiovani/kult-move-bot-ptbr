@@ -3,24 +3,13 @@
 ## Bot needs to be given message read and send permissions on the Discord server.
 ## Need to install the discord.py API wrapper (e.g., via: pip install discord.py)
 
+import os
 import random
 import discord
 import all_moves
 
-## Ascertain mode: dev or production
-m = open('modeFile.txt', "r")
-MODE = m.readline().rstrip()
-m.close()
-
-## Read in Discord bot token from file
-if MODE=="prod":
-    tokenFile = 'prodToken.txt'
-elif MODE=="dev":
-    tokenFile = 'devToken.txt'
-
-f = open(tokenFile, "r")
-TOKEN = f.readline().rstrip()
-f.close()
+# Read Discord token from env var
+TOKEN = os.environ['DISCORD_BOT_TOKEN']
 
 ## Define variables here...
 
