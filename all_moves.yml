@@ -36,7 +36,7 @@ kit: &kit
   - A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
 
 aup: &aup
-  - '# Agir Sobre Pressão'
+  - '# Agir Sob Pressão'
   - Você faz o que pretendia
   - Você consegue fazer, mas hesita, se atrasa ou deve lidar com uma complicação – o Mestre revela um resultado inesperado, um preço alto ou uma escolha difícil.
   - Há sérias consequências, você comete um erro ou está exposto ao perigo. O Mestre realiza um Movimento.
@@ -200,7 +200,7 @@ aoa: *hoh
 
 nonstandardmove: *non
 movimentoforadopadrao: *non
-mfp: *non
+mov: *non
 
 # Advantages and Disadvantages
 
