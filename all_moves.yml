@@ -7,16 +7,33 @@ ah: &ah
   - Você demorou demais para reagir ou tomou uma decisão ruim. Talvez você não tenha evitado nenhum dano ou tenha acabado numa situação ainda pior do que antes. O Mestre realiza um movimento.
 
 ei: &ei
-  - '# Endure Injury'
-  - ' You ride out the pain and keep going.'
-  - "You are still standing, but the GM picks one condition:\n - The injury throws you off balance.\n - You lose something.\n - You receive a Serious Wound."
-  - "The injury is overwhelming. You choose if you\n - Are knocked out (the GM may also choose to inflict a Serious Wound).\n - Receive a Critical Wound, but may continue to act (if you already have a Critical Wound, you may not choose this option again).\n - Die."
+  - '# Suportar Ferimento'
+  - Você supera a dor e continua.
+  - |
+    Você ainda está de pé, mas o Mestre escolhe uma condição:
+     - O ferimento deixa você desequilibrado.
+     - Você perde alguma coisa.
+     - Você recebe um Ferimento Grave.
+  - |
+    A lesão é esmagadora. Escolha se você:
+     - É nocauteado (o Mestre também pode optar por causar um Ferimento Grave).
+     - Recebe um Ferimento Crítico, mas que possa continuar a agir (se você já tiver um Ferimento Crítico, não poderá escolher esta opção novamente).
+     - Morre
 
 kit: &kit
-  - '# Keep It Together'
-  - ' You grit your teeth and stay the course.'
-  - "The effort to resist instills a condition, which remains with you until you have time to recuperate. You get -1 in situations where this condition would be a hinderance to you. Choose one:\n - You become angry (−1 Stability).\n - You become sad (−1 Stability).\n - You become scared (−1 Stability).\n - You become guilt-ridden (−1 Stability).\n - You become obsessed (+1 Relation to whatever caused the condition).\n - You become distracted (−2 in situations where the condition limits you).\n - You will be haunted by the experience at a later time."
-  - "The strain is too much for your mind to handle. The GM chooses your reaction:\n - cower powerless in the threat’s presence\n - panic with no control of your actions\n - suffer emotional trauma (−2 Stability)\n - suffer life-changing trauma (−4 Stability)."
+  - '# Manter o Sangue-frio'
+  - Você trinca os dentes e segue seu rumo.
+  - |
+    O esforço para resistir lhe causa uma condição que permanece até que tenha tempo de se recuperar. Você recebe -1 em situações em que esta sua condição seja um obstáculo.
+    Escolha um:
+     - Ficar com raiva (-1 Estabilidade).
+     - Ficar triste (-1 Estabilidade).
+     - Ficar com medo (-1 Estabilidade).
+     - Ficar cheio de culpa (-1 Estabilidade).
+     - Ficar obcecado (+1 Relação ao que quer que tenha causado a condição).
+     - Ficar distraído (-2 em situações nas quais a condição o limita).
+     - Você será assombrado pela experiência posteriormente.
+  - A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
 
 aup: &aup
   - '# Act Under Pressure'
@@ -85,8 +102,12 @@ evitardano: *ah
 ed: *ah
 
 endureinjury: *ei
+suportarferimento: *ei
+sf: *ei
 
 keepittogether: *kit
+manterosanguefrio: *kit
+msf: *kit
 
 actunderpressure: *aup
 
