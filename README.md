@@ -53,46 +53,41 @@ O Discord vai responder com a mensagem de uso abaixo.
 
 
 ```
-!move ? - displays this message
-!move help - displays this message
-!move info - displays bot code info
-!move xxx - roll to perform Move xxx
-!move xxx -1 - roll to perform Move xxx with negative modifier -1
-!move xxx +2 - roll to perform Move xxx with positive modifier +2
+!movimento ? - exibe esta mensagem
+!movimento help - exibe esta mensagem
+!movimento ajuda - exibe esta mensagem
+!movimento info - exibe informações do Bot
+!movimento xxx - realiza um movimento xxx
+!movimento xxx -1 - realiza um movimento xxx com um modificador negativo de -1
+!movimento xxx +2 - realiza um movimento xxx com um modificador positivo de +2
 ```
 
 ### Movimentos
 
 ```
-- Use the full move name (lower-case, no spaces) when rolling.
-  For example, to roll for 'Artistic Talent' with a +2 bonus use:
-  !move artistictalent +2
-- Shortcuts are available for commonly used moves (see below).
-  For example, to roll for 'Avoid Harm' with a +1 bonus use:
-  !move ah +1
+Movimentos:
+- Use o nome completo do movimento (em minúsculas, sem espaços) ao jogar.
+  Por exemplo, para jogar 'Observar uma Situação' com um bônus de +2, use:
+  !movimento observarumasituacao +2
+- Atalhos estão disponíveis para os movimentos mais usados (veja abaixo).
+  Por exemplo, para jogar 'Evitar Ferimento' com um bônus de +1, use:
+  !movimento ef +1
 ```
 
 ### Atalhos de movimentos
 
 ```
-- Avoid Harm (ah): roll + Reflexes
-- Endure Injury (ei): roll + Fortitude - Harm (+ Armour)
-- Keep It Together (kit): roll + Willpower
-- Act Under Pressure (aup): roll + Coolness
-- Engage In Combat (eic): roll + Violence
-- Influence Other - NPC (ion): roll + Charisma
-- Influence Other - PC (iop): roll + Charisma
-- See Through the Illusion (sti): roll + Soul
-- Read A Person (rap): roll + Intuition
-- Observe A Situation (oas): roll + Perception
-- Investigate (inv): roll + Reason
-- Help Or Hinder (hoh): roll + Attribute
-- Non-standard move (non): roll + Modifier
-```
-
-### Anomalies (full move name):
-
-```
-- Influence Other - NPC: !move influenceothernpc
-- Influence Other - PC: !move influenceotherpc
+- Evitar Dano (ed): jogue + Reflexos
+- Suportar Ferimento (sf): jogue + Fortitude - Dano (+ Armadura)
+- Manter o Sangue-frio (msf): jogue + Força de Vontade
+- Agir Sob Pressão (asp): jogue + Sangue-frio
+- Participar do Combate (pdc): jogue + Violência
+- Influenciar um PdM (ipm): jogue + Carisma
+- Influenciar um Pj (ipj): jogue + Carisma
+- Ver Através da Ilusão (vai): jogue + Alma
+- Read A Person (rap): jogue + Intuição
+- Observar uma Situação (oas): jogue + Percepção
+- Investigar (inv): jogue + Razão
+- Ajudar ou Atrapalhar (aoa): jogue + Atributo
+- Movimento fora do padrão (mov): jogue + Modificador
 ```
