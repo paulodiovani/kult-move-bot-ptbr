@@ -4,3 +4,4 @@ prodToken.txt
 runBot.sh
 nohup.out
 __pycache__
+bot-env
