@@ -1,104 +1,208 @@
+# Basic Moves
+
 ah: &ah
-  - '# Avoid Harm'
-  - ' You emerge completely unharmed.'
-  - You avoid the worst of it, but the GM decides if you end up in a bad spot, lose something, or partially sustain Harm.
-  - You were too slow to react or you made a bad judgment call. Perhaps you didn’t avoid any Harm at all, or you ended up in an even worse spot than before. The GM makes a Move.
+  - '# Evitar Dano'
+  - Você sai completamente ileso.
+  - Você evita o pior, mas o Mestre decide se você fica numa posição ruim, se perde alguma coisa ou leva Dano parcial.
+  - Você demorou demais para reagir ou tomou uma decisão ruim. Talvez você não tenha evitado nenhum dano ou tenha acabado numa situação ainda pior do que antes. O Mestre realiza um movimento.
 
 ei: &ei
-  - '# Endure Injury'
-  - ' You ride out the pain and keep going.'
-  - "You are still standing, but the GM picks one condition:\n - The injury throws you off balance.\n - You lose something.\n - You receive a Serious Wound."
-  - "The injury is overwhelming. You choose if you\n - Are knocked out (the GM may also choose to inflict a Serious Wound).\n - Receive a Critical Wound, but may continue to act (if you already have a Critical Wound, you may not choose this option again).\n - Die."
+  - '# Suportar Ferimento'
+  - Você supera a dor e continua.
+  - |
+    Você ainda está de pé, mas o Mestre escolhe uma condição:
+     - O ferimento deixa você desequilibrado.
+     - Você perde alguma coisa.
+     - Você recebe um Ferimento Grave.
+  - |
+    A lesão é esmagadora. Escolha se você:
+     - É nocauteado (o Mestre também pode optar por causar um Ferimento Grave).
+     - Recebe um Ferimento Crítico, mas que possa continuar a agir (se você já tiver um Ferimento Crítico, não poderá escolher esta opção novamente).
+     - Morre
 
 kit: &kit
-  - '# Keep It Together'
-  - ' You grit your teeth and stay the course.'
-  - "The effort to resist instills a condition, which remains with you until you have time to recuperate. You get -1 in situations where this condition would be a hinderance to you. Choose one:\n - You become angry (−1 Stability).\n - You become sad (−1 Stability).\n - You become scared (−1 Stability).\n - You become guilt-ridden (−1 Stability).\n - You become obsessed (+1 Relation to whatever caused the condition).\n - You become distracted (−2 in situations where the condition limits you).\n - You will be haunted by the experience at a later time."
-  - "The strain is too much for your mind to handle. The GM chooses your reaction:\n - cower powerless in the threat’s presence\n - panic with no control of your actions\n - suffer emotional trauma (−2 Stability)\n - suffer life-changing trauma (−4 Stability)."
+  - '# Manter o Sangue-frio'
+  - Você trinca os dentes e segue seu rumo.
+  - |
+    O esforço para resistir lhe causa uma condição que permanece até que tenha tempo de se recuperar. Você recebe -1 em situações em que esta sua condição seja um obstáculo.
+    Escolha um:
+     - Ficar com raiva (-1 Estabilidade).
+     - Ficar triste (-1 Estabilidade).
+     - Ficar com medo (-1 Estabilidade).
+     - Ficar cheio de culpa (-1 Estabilidade).
+     - Ficar obcecado (+1 Relação ao que quer que tenha causado a condição).
+     - Ficar distraído (-2 em situações nas quais a condição o limita).
+     - Você será assombrado pela experiência posteriormente.
+  - A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
 
 aup: &aup
-  - '# Act Under Pressure'
-  - You do what you intended.
-  - You do it, but hesitate, are delayed, or must deal with a complication – the GM reveals an unexpected outcome, a high price, or a difficult choice.
-  - There are serious consequences, you make a mistake, or you’re exposed to the danger. The GM makes a Move.
+  - '# Agir Sob Pressão'
+  - Você faz o que pretendia
+  - Você consegue fazer, mas hesita, se atrasa ou deve lidar com uma complicação – o Mestre revela um resultado inesperado, um preço alto ou uma escolha difícil.
+  - Há sérias consequências, você comete um erro ou está exposto ao perigo. O Mestre realiza um Movimento.
 
 eic: &eic
-  - '# Engage In Combat'
-  - You inflict damage to your opponent and avoid counterattacks.
-  - "You inflict damage, but at a cost. The GM chooses one:\n - You’re subjected to a counterattack.\n - You do less damage than intended.\n - You lose something important.\n - You expend all your ammo.\n - You’re beset by a new threat.\n - You’ll be in trouble later on."
-  - Your attack doesn’t go as anticipated. You might be subjected to bad luck, miss your target, or pay a high price for your assault. The GM makes a Move.
+  - '# Participar do Combate'
+  - Você causa dano ao seu oponente e evita contra-ataques.
+  - |
+    Você causa dano, mas com um custo. O Mestre escolhe entre:
+    - Você ficar sujeito a um contra-ataque.
+    - Você causar menos danos do que o previsto.
+    - Você perder algo importante.
+    - Você gastar toda a sua munição.
+    - Você ficar frente a frente com uma nova ameaça.
+    - Você ter problemas mais tarde.
+  - Seu ataque não é o esperado. Você pode ter azar, errar seu alvo ou pagar um preço alto pelo ataque. O Mestre realiza um Movimento.
 
 ion: &ion
-  - '# Influence Other (NPC)'
-  - She does what you ask
-  - "She does what you ask, but the GM chooses one:\n - She demands better compensation.\n - Complications will arise at a future time.\n - She gives in for the moment, but will change her mind and regret it later."
-  - 'Your attempt has unintended repercussions. The GM makes a Move. '
-
+  - '# Influenciar um PdM'
+  - O PdM faz o que lhe foi pedido.
+  - |
+    Ele faz o que lhe foi pedido, mas o Mestre escolhe entre:
+    - Pedir uma compensação maior do que a oferecida.
+    - Surgir complicações no futuro.
+    - Aceitar, mas mudar de ideia e se arrepender depois.
+  - Sua tentativa tem repercussão diferente da pretendida. O Mestre realiza um Movimento.
+  
 iop: &iop
-  - '# Influence Other (PC)'
-  - "Both options below:\n - She’s motivated to do what you ask, and recieves +1 for her next roll, if she does it.\n - She’s worried of the consequences if she doesn’t do what you ask, and gets −1 Stability if she doesn’t do it."
-  - "Choose one option below:\n - She’s motivated to do what you ask, and recieves +1 for her next roll, if she does it.\n - She’s worried of the consequences if she doesn’t do what you ask, and gets −1 Stability if she doesn’t do it."
-  - The character gets +1 on her next roll against you. The GM makes a Move.
+  - '# Influenciar um Pj'
+  - |
+    Duas das opções abaixo.
+    - Ele quer fazer o que você pediu e recebe +1 para sua próxima rolagem, caso ele o fizer.
+    - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
+  - |
+    Uma opção.
+    - Ele quer fazer o que você pediu e recebe +1 para sua próxima rolagem, caso ele o fizer.
+    - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
+  - O personagem dele recebe +1 a próxima rolagem contra você. O Mestre realiza um Movimento.
 
 sti: &sti
-  - '# See Through The Illusion'
-  - You perceive things as they truly are.
-  - "You see Reality, but you also affect the Illusion. The GM chooses one:\n - Something senses you.\n - The Illusions tears around you."
-  - The GM explains what you see and makes a Move.
+  - '# Ver Através da Ilusão'
+  - Você percebe as coisas como elas realmente são.
+  - |
+    Você vê a Realidade, mas também afeta a Ilusão. O Mestre escolhe um:
+    - Algo sente sua presença
+    - As ilusões rasgam ao seu redor
+  - O Mestre explica o que você vê e faz um Movimento.
 
 rap: &rap
-  - '# Read A Person'
-  - "You may ask two questions:\n - Are you lying?\n - How do you feel right now?\n - What are you about to do?\n - What do you wish I would do?\n - How could I get you to ______?"
-  - "You may ask one question:\n - Are you lying?\n - How do you feel right now?\n - What are you about to do?\n - What do you wish I would do?\n - How could I get you to ______?"
-  - You accidentally reveal your own intentions to the person you’re trying to read. Tell the GM/player what these intentions are. The GM makes a Move.
+  - '# Ler uma Pessoa'
+  - |
+    Você pode fazer duas perguntas.
+    - Você está mentindo?
+    - Como você se sente agora?
+    - O que você está prestes a fazer?
+    - O que você gostaria que eu fizesse?
+    - Como eu consigo fazer você [...]?
+  - |
+    Você pode fazer uma pergunta.
+    - Você está mentindo?
+    - Como você se sente agora?
+    - O que você está prestes a fazer?
+    - O que você gostaria que eu fizesse?
+    - Como eu consigo fazer você [...]?"
+  - Você acidentalmente revela suas próprias intenções à pessoa que está tentando ler. Diga ao Mestre/jogador quais são essas intenções. O Mestre faz um movimento.
 
 oas: &oas
-  - '# Observe A Situation'
-  - "Ask two questions:\n - What is my best way through this?\n - What currently poses the biggest threat?\n - What can I use to my advantage?\n - What should I be on the lookout for?\n - What is being hidden from me?\n - What seems strange about this?"
-  - "Ask one question:\n - What is my best way through this?\n - What currently poses the biggest threat?\n - What can I use to my advantage?\n - What should I be on the lookout for?\n - What is being hidden from me?\n - What seems strange about this?"
-  - You get to ask a question anyway, but you get no bonus for it and miss something, attract unwanted attention or expose yourself to danger. The GM makes a Move.
+  - '# Observar uma Situação'
+  - |
+    Faça duas perguntas.
+    - Qual é o melhor modo para sair dessa?
+    - O que representa a maior ameaça agora?
+    - O que posso usar para meu benefício?
+    - O que devo procurar?
+    - O que está sendo escondido de mim?
+    - O que parece estranho nisso?
+  - |
+    Faça uma perguntas.
+    - Qual é o melhor modo para sair dessa?
+    - O que representa a maior ameaça agora?
+    - O que posso usar para meu benefício?
+    - O que devo procurar?
+    - O que está sendo escondido de mim?
+    - O que parece estranho nisso?
+  - Você pode fazer uma pergunta, mas não recebe bônus por isso e perde algo, atrai atenção indesejada ou se expõe ao perigo. O Mestre realiza um movimento.
 
 inv: &inv
-  - '# Investigate'
-  - "Ask two questions:\n - How can I find out more about what I’m investigating?\n - What is my gut feel about what I’m investigating?\n - Is there anything weird about what I’m investigating?"
-  - "You may ask one question:\n - How can I find out more about what I’m investigating?\n - What is my gut feel about what I’m investigating?\n - Is there anything weird about what I’m investigating?\nThe information comes at a cost, determined by the GM, such as requiring someone or something for the answer, exposing yourself to danger, or needing to expend extra time or resources. Will you do what it takes?"
-  - You may get some information anyway, but you pay a price for it. You may expose yourself to dangers or costs. The GM makes a Move.
+  - '# Investigar'
+  - |
+    Você pode fazer duas perguntas.
+    - Como posso descobrir mais sobre o que estou investigando?
+    - Qual é a minha intuição sobre o que estouinvestigando?
+    - Existe algo estranho no que estou investigando?
+  - |
+    Você pode fazer uma pergunta. As informações têm um custo determinado pelo Mestre, tal como exigir alguém ou algo em troca da resposta, expor-se ao perigo ou precisar gastar tempo ou recursos extras. Você vai fazer o que é preciso?
+    - Como posso descobrir mais sobre o que estou investigando?
+    - Qual é a minha intuição sobre o que estouinvestigando?
+    - Existe algo estranho no que estou investigando?
+  - Você pode, de qualquer maneira, obter algumas informações, mas paga um preço por elas. Você pode se expor a perigos ou custos. O Mestre realiza um movimento.
 
 hoh: &hoh
-  - '# Help Or Hinder'
-  - You may modify the subsequent roll by +2/−2.
-  - You may modify the subsequent roll by +1/−1.
-  - Your interference has unintended consequences. The GM makes a Move.
+  - '# Ajudar ou Atrapalhar'
+  - Você pode modificar o teste subsequente em +2 / −2.
+  - Você pode modificar a rolagem subsequente em +1 / −1.
+  - Sua interferência tem consequências não intencionais. O Mestre faz um movimento.
+
+non: &non
+  - '# Movimento fora do padrão'
+  - Você tem sucesso
+  - Haverá consequencias
+  - O Mestre faz um Movimento
+
+# Basic Moves Aliases
 
 avoidharm: *ah
+evitardano: *ah
+ed: *ah
 
 endureinjury: *ei
+suportarferimento: *ei
+sf: *ei
 
 keepittogether: *kit
+manterosanguefrio: *kit
+msf: *kit
 
 actunderpressure: *aup
+agirsobpressao: *aup
+asp: *aup
 
 engageincombat: *eic
+participardocombate: *eic
+pdc: *eic
 
 influenceothernpc: *ion
+influenciarumpdm: *ion
+ipm: *ion
 
 influenceotherpc: *iop
+influenciarumpj: *iop
+ipj: *iop
 
 seethroughtheillusion: *sti
+veratravesdailusao: *sti
+vai: *sti
 
 readaperson: *rap
+lerumapessoa: *rap
+lup: *rap
 
 observeasituation: *oas
+observarumasituacao: *oas
+ous: *oas
 
 investigate: *inv
+investigar: *inv
 
 helporhinder: *hoh
+ajudarouatrapalhar: *hoh
+aoa: *hoh
 
-non:
-  - '# Non-standard move'
-  - You succeed
-  - There are complications
-  - The GM makes a Move
+nonstandardmove: *non
+movimentoforadopadrao: *non
+mov: *non
+
+# Advantages and Disadvantages
 
 academicnetwork:
   - '# Academic Network'
