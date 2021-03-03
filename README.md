@@ -85,7 +85,7 @@ Movimentos:
 - Influenciar um PdM (ipm): jogue + Carisma
 - Influenciar um Pj (ipj): jogue + Carisma
 - Ver Através da Ilusão (vai): jogue + Alma
-- Read A Person (rap): jogue + Intuição
+- Ler uma Pessoa (lup): jogue + Intuição
 - Observar uma Situação (oas): jogue + Percepção
 - Investigar (inv): jogue + Razão
 - Ajudar ou Atrapalhar (aoa): jogue + Atributo
