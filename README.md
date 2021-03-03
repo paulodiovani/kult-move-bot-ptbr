@@ -4,7 +4,7 @@ Bot para Discord escrito em Python para _Movimentos_ no PbtA **KULT: Divindade P
 
 Versão em Português do Brasil. 🇧🇷
 
-Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot.
+Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot).
 
 - Veja abaixo instruções de uso
 
