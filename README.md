@@ -39,7 +39,10 @@ Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot).
 
 Instale em um servidor do Discord (você vai precisar de privilégios de admin) pelo link:
 
-https://discordapp.com/api/oauth2/authorize?client_id=812513909198159904&permissions=0&scope=bot
+**https://discordapp.com/api/oauth2/authorize?client_id=812513909198159904&permissions=0&scope=bot**
+
+Imagem do Bot: [Skull](https://www.deviantart.com/angnatsiaq/art/Skull-70042924)
+por [Raymond Rieser](https://www.deviantart.com/angnatsiaq).
 
 ## Instruções de uso
 
