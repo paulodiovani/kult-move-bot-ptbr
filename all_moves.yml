@@ -1210,15 +1210,12 @@ explosivesexpert: &explosivesexpert
   - '# Especialista de explosões'
   - |
     Você constrói uma bomba funcional (ver Explosivos no Capítulo 4: O Personagem do Jogador).
-
     Ao desarmar uma bomba: A bomba é desativada.
   - |
     A bomba é menos potente do que o usual (diminua o Dano dela em -1)
-
-  Ao desarmar uma bomba:  Surgem complicações. Você pode não conseguir desarmá-la completamente, apenas atrasar seu contador, enfraquecer o efeito do explosivo, ou algo surge e piora as coisas.
+    Ao desarmar uma bomba:  Surgem complicações. Você pode não conseguir desarmá-la completamente, apenas atrasar seu contador, enfraquecer o efeito do explosivo, ou algo surge e piora as coisas.
   - |
     A bomba é imprevisível. Talvez não detone, exploda prematuramente, ou seja mais instável e poderosa do que o esperado. O Mestre faz um Movimento.
-
     Ao desarmar uma bomba:  Isso vai dar merda! A bomba pode explodir em suas mãos, o contador iniciar uma contagem regressiva de 10, 9, 8, 7…, ou problemas ainda maiores. O Mestre faz um Movimento.
 
 hacker: &hacker
