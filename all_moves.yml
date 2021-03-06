@@ -202,15 +202,15 @@ mov: *non
 
 # Advantages and Disadvantages
 
-academicnetwork: &acad
+academicnetwork: &academicnetwork
   - '# Rede Acadêmica'
   - A pessoa é um amigo (Relação +1).
   - A pessoa é um conhecido (Relação +0).
   - Vocês se conhecem, porém há uma animosidade entre vocês (Relação +0).
 
-redeacademica: *acad
+redeacademica: *academicnetwork
 
-artistictalent: &arti
+artistictalent: &artistictalent
   - '# Talento Artístico'
   - |
     Escolha até duas opções a qualquer momento da cena.
@@ -234,9 +234,9 @@ artistictalent: &arti
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
 
-talentoartistico: *arti
+talentoartistico: *artistictalent
 
-autoriedade: &aut
+authority: &authority
   - '# Autoriedade'
   - |
     Durante a sessão, escolha até três opções.
@@ -260,17 +260,17 @@ autoriedade: &aut
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
 
-autoridade: *aut
+autoridade: *authority
 
-awe-inspiring: &insp
+awe-inspiring: &awe-inspiring
   - '# Poderoso Chefão'
   - As pessoas à sua volta te escutam e aceitam-no como líder. Ganhe +1 constante contra todos na cena.
   - As Pessoas te respeitam e sentem firmeza em sua liderança. Escolha uma pessoa em particular que concorde com seu modo de pensar. Você tem +1 contínuo com ela durante a cena.
   - As pessoas reconhecem você como líder, mas alguém te desafia. O Mestre faz um Movimento.
 
-poderosochefao: *insp
+poderosochefao: *awe-inspiring
 
-eliteeducation: &elit
+eliteeducation: &eliteeducation
   - '# Educação de Elite'
   - |
     Escolha até três opções.
@@ -294,7 +294,7 @@ eliteeducation: &elit
     - Localizar ou rastrear uma pessoa escondida ou desaparecida.
     - Receber meios para escapar, além de um esconderijo seguro.
 
-educacaodeelite: *elit
+educacaodeelite: *eliteeducation
 
 erotic:
   - '# Erótico'
