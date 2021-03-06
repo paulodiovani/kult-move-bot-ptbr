@@ -6,6 +6,10 @@ ah: &ah
   - Você evita o pior, mas o Mestre decide se você fica numa posição ruim, se perde alguma coisa ou leva Dano parcial.
   - Você demorou demais para reagir ou tomou uma decisão ruim. Talvez você não tenha evitado nenhum dano ou tenha acabado numa situação ainda pior do que antes. O Mestre realiza um movimento.
 
+avoidharm: *ah
+evitardano: *ah
+ed: *ah
+
 ei: &ei
   - '# Suportar Ferimento'
   - Você supera a dor e continua.
@@ -19,6 +23,10 @@ ei: &ei
      - É nocauteado (o Mestre também pode optar por causar um Ferimento Grave).
      - Recebe um Ferimento Crítico, mas que possa continuar a agir (se você já tiver um Ferimento Crítico, não poderá escolher esta opção novamente).
      - Morre
+
+endureinjury: *ei
+suportarferimento: *ei
+sf: *ei
 
 kit: &kit
   - '# Manter o Sangue-frio'
@@ -35,11 +43,19 @@ kit: &kit
      - Você será assombrado pela experiência posteriormente.
   - A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
 
+keepittogether: *kit
+manterosanguefrio: *kit
+msf: *kit
+
 aup: &aup
   - '# Agir Sob Pressão'
   - Você faz o que pretendia
   - Você consegue fazer, mas hesita, se atrasa ou deve lidar com uma complicação – o Mestre revela um resultado inesperado, um preço alto ou uma escolha difícil.
   - Há sérias consequências, você comete um erro ou está exposto ao perigo. O Mestre realiza um Movimento.
+
+actunderpressure: *aup
+agirsobpressao: *aup
+asp: *aup
 
 eic: &eic
   - '# Participar do Combate'
@@ -54,6 +70,10 @@ eic: &eic
     - Você ter problemas mais tarde.
   - Seu ataque não é o esperado. Você pode ter azar, errar seu alvo ou pagar um preço alto pelo ataque. O Mestre realiza um Movimento.
 
+engageincombat: *eic
+participardocombate: *eic
+pdc: *eic
+
 ion: &ion
   - '# Influenciar um PdM'
   - O PdM faz o que lhe foi pedido.
@@ -63,6 +83,10 @@ ion: &ion
     - Surgir complicações no futuro.
     - Aceitar, mas mudar de ideia e se arrepender depois.
   - Sua tentativa tem repercussão diferente da pretendida. O Mestre realiza um Movimento.
+
+influenceothernpc: *ion
+influenciarumpdm: *ion
+ipm: *ion
   
 iop: &iop
   - '# Influenciar um Pj'
@@ -76,6 +100,10 @@ iop: &iop
     - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
   - O personagem dele recebe +1 a próxima rolagem contra você. O Mestre realiza um Movimento.
 
+influenceotherpc: *iop
+influenciarumpj: *iop
+ipj: *iop
+
 sti: &sti
   - '# Ver Através da Ilusão'
   - Você percebe as coisas como elas realmente são.
@@ -84,6 +112,10 @@ sti: &sti
     - Algo sente sua presença
     - As ilusões rasgam ao seu redor
   - O Mestre explica o que você vê e faz um Movimento.
+
+seethroughtheillusion: *sti
+veratravesdailusao: *sti
+vai: *sti
 
 rap: &rap
   - '# Ler uma Pessoa'
@@ -102,6 +134,10 @@ rap: &rap
     - O que você gostaria que eu fizesse?
     - Como eu consigo fazer você [...]?"
   - Você acidentalmente revela suas próprias intenções à pessoa que está tentando ler. Diga ao Mestre/jogador quais são essas intenções. O Mestre faz um movimento.
+
+readaperson: *rap
+lerumapessoa: *rap
+lup: *rap
 
 oas: &oas
   - '# Observar uma Situação'
@@ -123,6 +159,10 @@ oas: &oas
     - O que parece estranho nisso?
   - Você pode fazer uma pergunta, mas não recebe bônus por isso e perde algo, atrai atenção indesejada ou se expõe ao perigo. O Mestre realiza um movimento.
 
+observeasituation: *oas
+observarumasituacao: *oas
+ous: *oas
+
 inv: &inv
   - '# Investigar'
   - |
@@ -137,66 +177,24 @@ inv: &inv
     - Existe algo estranho no que estou investigando?
   - Você pode, de qualquer maneira, obter algumas informações, mas paga um preço por elas. Você pode se expor a perigos ou custos. O Mestre realiza um movimento.
 
+investigate: *inv
+investigar: *inv
+
 hoh: &hoh
   - '# Ajudar ou Atrapalhar'
   - Você pode modificar o teste subsequente em +2 / −2.
   - Você pode modificar a rolagem subsequente em +1 / −1.
   - Sua interferência tem consequências não intencionais. O Mestre faz um movimento.
 
+helporhinder: *hoh
+ajudarouatrapalhar: *hoh
+aoa: *hoh
+
 non: &non
   - '# Movimento fora do padrão'
   - Você tem sucesso
   - Haverá consequencias
   - O Mestre faz um Movimento
-
-# Basic Moves Aliases
-
-avoidharm: *ah
-evitardano: *ah
-ed: *ah
-
-endureinjury: *ei
-suportarferimento: *ei
-sf: *ei
-
-keepittogether: *kit
-manterosanguefrio: *kit
-msf: *kit
-
-actunderpressure: *aup
-agirsobpressao: *aup
-asp: *aup
-
-engageincombat: *eic
-participardocombate: *eic
-pdc: *eic
-
-influenceothernpc: *ion
-influenciarumpdm: *ion
-ipm: *ion
-
-influenceotherpc: *iop
-influenciarumpj: *iop
-ipj: *iop
-
-seethroughtheillusion: *sti
-veratravesdailusao: *sti
-vai: *sti
-
-readaperson: *rap
-lerumapessoa: *rap
-lup: *rap
-
-observeasituation: *oas
-observarumasituacao: *oas
-ous: *oas
-
-investigate: *inv
-investigar: *inv
-
-helporhinder: *hoh
-ajudarouatrapalhar: *hoh
-aoa: *hoh
 
 nonstandardmove: *non
 movimentoforadopadrao: *non
