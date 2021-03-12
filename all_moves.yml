@@ -1,3 +1,6 @@
+# yamllint disable rule:line-length
+---
+
 # Basic Moves
 
 ah: &ah
