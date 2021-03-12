@@ -2279,7 +2279,7 @@ marked: &marked
   - A escuridão ganha poder sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão.
 
 mentalcompulsion: &mentalcompulsion
-  -
+  - '# Compulsão Mental'
   - Você controla suas compulsões e consegue focar em outras coisas.
   - Você fica distraído e recebe -1 constante para todas as rolagens, até se afastar da situação ou sucumbir à sua compulsão, cumprindo sua demanda.
   - Você se torna completamente obcecado por sua compulsão. Se focar em qualquer outra coisa, reduza Estabilidade (-2).
@@ -2385,7 +2385,7 @@ victimofpassion: &victimofpassion
   - '# Vítima da Paixão'
   - Você mantém sua paixão sob controle.
   - A paixão desperta dentro de você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você.
-  -
+  - Você está completamente nas garras da paixão. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você.
 
 wanted: &wanted
   - '# Procurado'
