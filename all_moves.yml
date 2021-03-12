@@ -2943,7 +2943,7 @@ journeyman: &journeyman
     Ao Realizar um Ritual, você pode escolher esta opção:
     - Você tem proteção contra criaturas e energias mágicas enquanto permanecer dentro do círculo protetor.
 
-oficial: &journeyman
+oficial2: &journeyman
 
 manipulatetheillusion: &manipulatetheillusion
   - '# Manipular a Ilusão'
