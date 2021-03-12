@@ -219,21 +219,21 @@ artistictalent: &artistictalent
     Escolha até duas opções a qualquer momento da cena.
     Opções:
     - Eles querem ver mais da sua arte.
-    - Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.).
+    - "Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.)."
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
   - |
     Escolha uma opção a qualquer momento da cena.
     Opções:
     - Eles querem ver mais da sua arte.
-    - Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.).
+    - "Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.)."
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
   - |
     Escolha uma opção, porém uma complicação/ameaça manifesta-se. O Mestre faz um Movimento.
     Opções:
     - Eles querem ver mais da sua arte.
-    - Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.).
+    - "Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.)."
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
 
@@ -245,21 +245,21 @@ authority: &authority
     Durante a sessão, escolha até três opções.
     Opções:
     - Influenciar alguém que ouviu falar da sua autoridade no seu campo acadêmico, como se rolado um (15+).
-    - Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos.
+    - "Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos."
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
   - |
     Durante a sessão, escolha até duas opções.
     Opções:
     - Influenciar alguém que ouviu falar da sua autoridade no seu campo acadêmico, como se rolado um (15+).
-    - Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos.
+    - "Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos."
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
   - |
     Durante a sessão você pode escolher uma opção, porém atrairá atenção indesejada de perseguidores, adversários profissionais, competidores ou forças hostis. O Mestre faz um Movimento por eles, em algum ponto da sessão.
     Opções:
     - Influenciar alguém que ouviu falar da sua autoridade no seu campo acadêmico, como se rolado um (15+).
-    - Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos.
+    - "Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos."
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
 
@@ -579,7 +579,7 @@ burglar: &burglar
     - Desarmar um alarme.
     - Quebrar o segredo de um cofre em menos de dois minutos.
     - Conseguir evitar que alguém o descubra.
-    - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
+    - "Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança."
   - |
     Escolha duas opções. Gaste-as a qualquer momento na cena.
     Opções:
@@ -587,7 +587,7 @@ burglar: &burglar
     - Desarmar um alarme.
     - Quebrar o segredo de um cofre em menos de dois minutos.
     - Conseguir evitar que alguém o descubra.
-    - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
+    - "Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança."
   - |
     Escolha uma opção, porém surge um problema. O Mestre faz um Movimento.
     Opções:
@@ -595,7 +595,7 @@ burglar: &burglar
     - Desarmar um alarme.
     - Quebrar o segredo de um cofre em menos de dois minutos.
     - Conseguir evitar que alguém o descubra.
-    - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
+    - "Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança."
 
 gatuno: *burglar
 
@@ -628,7 +628,7 @@ motorista: *driver
 escapeartist: &escapeartist
   - '# Escapista'
   - Você escapa sem problemas.
-  - Escolha entre ficar ou escapar com algum prejuízo. Ex: Deixar algo importante para trás ou levar algo rastreável com você. O Mestre decide.
+  - "Escolha entre ficar ou escapar com algum prejuízo. Ex: Deixar algo importante para trás ou levar algo rastreável com você. O Mestre decide."
   - Você é interceptado a meio caminho andado, num péssimo ponto. O Mestre faz um Movimento.
 
 escapista: *escapeartist
@@ -1680,7 +1680,7 @@ exorcist: &exorcist
     - Ninguém sai ferido da cerimônia.
     - A entidade não reaparece mais tarde.
     - A entidade não é hostil com você.
-  - A criatura resiste e algo terrivelmente errado ocorre. Ex: a criatura te possui. O Mestre faz um Movimento.
+  - "A criatura resiste e algo terrivelmente errado ocorre. Ex: a criatura te possui. O Mestre faz um Movimento."
 
 exorcista: *exorcist
 
@@ -1734,7 +1734,7 @@ implantedmessages: &implantedmessages
   - '# Mensagens implantadas'
   - Você detém 2 de Poder sobre ele. Enquanto detiver Poder sobre esse ser humano, ele receberá 1 Ferimento Grave, caso recuse ou tente ir contra sua ordem. Porém isso diminui seu controle sobre ele em 1 Poder. Se ele cumprir sua ordem, todo seu Poder restante sobre ele será removido.
   - Você detém 1 Poder sobre ele. Enquanto detiver Poder sobre esse ser humano, ele receberá 1 Ferimento Grave, caso recuse ou tente ir contra sua ordem. Porém isso diminui seu controle sobre ele em 1 Poder. Se ele cumprir sua ordem, todo seu Poder restante sobre ele será removido.
-  - Algo dá errado. Ex: Ele se machuca no processo, ou o resultado do comando é diferente daquele imaginado por você. O Mestre faz um Movimento.
+  - "Algo dá errado. Ex: Ele se machuca no processo, ou o resultado do comando é diferente daquele imaginado por você. O Mestre faz um Movimento."
 
 mensagensimplantadas: *implantedmessages
 
@@ -2392,8 +2392,8 @@ servicos: *services
 badreputation: &badreputation
   - '# Má Reputação'
   - Você se misturou, ninguém está tentando pegá-lo.
-  - Você foi reconhecido. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento representando como sua má reputação persegue você. Ex: As pessoas reagem com medo e suspeita a seu respeito; uma multidão tenta linchá-lo para fazer justiça; sua propriedade é vandalizada; seus aliados voltam-se contra você, colocando-o sob o risco de perder o emprego, acordos e Relações.
-  - Diversas pessoas te reconheceram. Raiva e medo controlam as ações delas. O Mestre ganha 3 Reservas. O Mestre pode usar Reserva para fazer um Movimento representando como sua má reputação persegue você. Ex: As pessoas reagem com medo e suspeita a seu respeito; uma multidão tenta linchá-lo para fazer justiça; sua propriedade é vandalizada; seus aliados voltam-se contra você, colocando-o sob o risco de perder o emprego, acordos e Relações.
+  - "Você foi reconhecido. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento representando como sua má reputação persegue você. Ex: As pessoas reagem com medo e suspeita a seu respeito; uma multidão tenta linchá-lo para fazer justiça; sua propriedade é vandalizada; seus aliados voltam-se contra você, colocando-o sob o risco de perder o emprego, acordos e Relações."
+  - "Diversas pessoas te reconheceram. Raiva e medo controlam as ações delas. O Mestre ganha 3 Reservas. O Mestre pode usar Reserva para fazer um Movimento representando como sua má reputação persegue você. Ex: As pessoas reagem com medo e suspeita a seu respeito; uma multidão tenta linchá-lo para fazer justiça; sua propriedade é vandalizada; seus aliados voltam-se contra você, colocando-o sob o risco de perder o emprego, acordos e Relações."
 
 mareputacao: *badreputation
 
@@ -2408,8 +2408,8 @@ fragmentado: *broken
 competitor: &competitor
   - '# Competidor'
   - Você está seguro quanto ao seu competidor, por ora.
-  - Você se descuidou. Seu competidor pode atacá-lo. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelo seu competidor. Ex: Seu competidor pode tomar o controle de alguns de seus negócios; descobrir um segredo seu; sabotar um de seus ativos; ferir ou comprar alguém de sua confiança.
-  - Você deu ao seu competidor uma oportunidade de ouro, e ele age contra seus interesses. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelo seu competidor. Ex: Seu competidor pode tomar o controle de alguns de seus negócios; descobrir um segredo seu; sabotar um de seus ativos; ferir ou comprar alguém de sua confiança.
+  - "Você se descuidou. Seu competidor pode atacá-lo. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelo seu competidor. Ex: Seu competidor pode tomar o controle de alguns de seus negócios; descobrir um segredo seu; sabotar um de seus ativos; ferir ou comprar alguém de sua confiança."
+  - "Você deu ao seu competidor uma oportunidade de ouro, e ele age contra seus interesses. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelo seu competidor. Ex: Seu competidor pode tomar o controle de alguns de seus negócios; descobrir um segredo seu; sabotar um de seus ativos; ferir ou comprar alguém de sua confiança."
 
 competidor: *competitor
 
@@ -2436,8 +2436,8 @@ condenado: *condemned
 cursed: &cursed
   - '# Amaldiçoado'
   - Você evita a influência da maldição temporariamente.
-  - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento da maldição. Ex: Você ou alguém que você gosta acidenta-se; algo seu lhe é tirado; você tem visões aterrorizantes; você é forçado a tomar certas ações arriscando haver grandes consequências, caso se recuse.
-  - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento da maldição. Ex: Você ou alguém que você gosta acidenta-se; algo seu lhe é tirado; você tem visões aterrorizantes; você é forçado a tomar certas ações arriscando haver grandes consequências, caso se recuse.
+  - "O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento da maldição. Ex: Você ou alguém que você gosta acidenta-se; algo seu lhe é tirado; você tem visões aterrorizantes; você é forçado a tomar certas ações arriscando haver grandes consequências, caso se recuse."
+  - "O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento da maldição. Ex: Você ou alguém que você gosta acidenta-se; algo seu lhe é tirado; você tem visões aterrorizantes; você é forçado a tomar certas ações arriscando haver grandes consequências, caso se recuse."
 
 amaldicoado: *cursed
 
@@ -2452,16 +2452,16 @@ depressao: *depression
 drugaddict: &drugaddict
   - '# Viciado em Drogas'
   - Sua vontade está sob controle, por enquanto.
-  - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento pelo seu vício. Ex: Você não consegue resistir à vontade de usar a droga; ela acaba; você se torna devedor de uma pessoa perigosa; coloca-se em perigo sob influência de entorpecentes; arruína algo importante para você – como um relacionamento – enquanto estava sob influência dela.
-  - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento pelo seu vício. Ex: Você não consegue resistir à vontade de usar a droga; ela acaba; você se torna devedor de uma pessoa perigosa; coloca-se em perigo sob influência de entorpecentes; arruína algo importante para você – como um relacionamento – enquanto estava sob influência dela.
+  - "O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento pelo seu vício. Ex: Você não consegue resistir à vontade de usar a droga; ela acaba; você se torna devedor de uma pessoa perigosa; coloca-se em perigo sob influência de entorpecentes; arruína algo importante para você – como um relacionamento – enquanto estava sob influência dela."
+  - "O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento pelo seu vício. Ex: Você não consegue resistir à vontade de usar a droga; ela acaba; você se torna devedor de uma pessoa perigosa; coloca-se em perigo sob influência de entorpecentes; arruína algo importante para você – como um relacionamento – enquanto estava sob influência dela."
 
 viciadoemdrogas: *drugaddict
 
 experimentgonewrong: &experimentgonewrong
   - '# Experimento Falho'
   - Seu experimento deixa-o em paz.
-  - Seu experimento está no seu calcanhar. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seu experimento. Ex: Ele te dá uma pista sobre a Verdade; sabota ou atrapalha sua pesquisa; exige algo em retribuição, por meio de ameaças; sequestra alguém com quem você se importa – possivelmente o devolvendo morto ou transformado.
-  - Seu experimento está nas proximidades e age contra você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seu experimento. Ex: Ele te dá uma pista sobre a Verdade; sabota ou atrapalha sua pesquisa; exige algo em retribuição, por meio de ameaças; sequestra alguém com quem você se importa – possivelmente o devolvendo morto ou transformado.
+  - "Seu experimento está no seu calcanhar. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seu experimento. Ex: Ele te dá uma pista sobre a Verdade; sabota ou atrapalha sua pesquisa; exige algo em retribuição, por meio de ameaças; sequestra alguém com quem você se importa – possivelmente o devolvendo morto ou transformado."
+  - "Seu experimento está nas proximidades e age contra você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seu experimento. Ex: Ele te dá uma pista sobre a Verdade; sabota ou atrapalha sua pesquisa; exige algo em retribuição, por meio de ameaças; sequestra alguém com quem você se importa – possivelmente o devolvendo morto ou transformado."
 
 experimentofalho: *experimentgonewrong
 
@@ -2484,24 +2484,24 @@ ganancioso: *greedy
 guilt: &guilt
   - '# Culpa'
   - Sua culpa não oprime sua mente no momento.
-  - Você é lembrado de sua culpa. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua culpa. Ex: Os familiares daqueles feridos por você te procuram; demônios e outras criaturas são atraídas pelo seu sentimento de culpa; os mortos te assombram com visões e pesadelos; você adoece por razão da ansiedade e de autoquestionamento.
-  - Sua culpa te pega de jeito. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua culpa. Ex: Os familiares daqueles feridos por você te procuram; demônios e outras criaturas são atraídas pelo seu sentimento de culpa; os mortos te assombram com visões e pesadelos; você adoece por razão da ansiedade e de autoquestionamento.
+  - "Você é lembrado de sua culpa. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua culpa. Ex: Os familiares daqueles feridos por você te procuram; demônios e outras criaturas são atraídas pelo seu sentimento de culpa; os mortos te assombram com visões e pesadelos; você adoece por razão da ansiedade e de autoquestionamento."
+  - "Sua culpa te pega de jeito. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua culpa. Ex: Os familiares daqueles feridos por você te procuram; demônios e outras criaturas são atraídas pelo seu sentimento de culpa; os mortos te assombram com visões e pesadelos; você adoece por razão da ansiedade e de autoquestionamento."
 
 culpa: *guilt
 
 harassed: &harassed
   - '# Hostilizado'
   - Você conseguiu evitar o assédio.
-  - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus assediadores. Ex: Alguém destrói sua propriedade ou posses; você é hostilizado e atacado por pessoas preconceituosas em relação a você; as autoridades tiram de você algo à força (direitos, propriedades, bens); alguém com quem você se preocupa é afetado por estar associado a você; seus direitos mais básicos são-lhe negados por conta de sua identidade.
-  - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus assediadores. Ex: Alguém destrói sua propriedade ou posses; você é hostilizado e atacado por pessoas preconceituosas em relação a você; as autoridades tiram de você algo à força (direitos, propriedades, bens); alguém com quem você se preocupa é afetado por estar associado a você; seus direitos mais básicos são-lhe negados por conta de sua identidade.
+  - "O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus assediadores. Ex: Alguém destrói sua propriedade ou posses; você é hostilizado e atacado por pessoas preconceituosas em relação a você; as autoridades tiram de você algo à força (direitos, propriedades, bens); alguém com quem você se preocupa é afetado por estar associado a você; seus direitos mais básicos são-lhe negados por conta de sua identidade."
+  - "O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus assediadores. Ex: Alguém destrói sua propriedade ou posses; você é hostilizado e atacado por pessoas preconceituosas em relação a você; as autoridades tiram de você algo à força (direitos, propriedades, bens); alguém com quem você se preocupa é afetado por estar associado a você; seus direitos mais básicos são-lhe negados por conta de sua identidade."
 
 hostilizado: *harassed
 
 haunted: &haunted
   - '# Assombrado'
   - A entidade te deixa em paz.
-  - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento pela entidade. Ex: Ela requer um serviço e te ameaça de retaliação se for contrariada; ela possui seu corpo durante a noite ou revela uma pista do que ela é e do que quer de você.
-  - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento pela entidade. Ex: Ela requer um serviço e te ameaça de retaliação se for contrariada; ela possui seu corpo durante a noite ou revela uma pista do que ela é e do que quer de você.
+  - "O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento pela entidade. Ex: Ela requer um serviço e te ameaça de retaliação se for contrariada; ela possui seu corpo durante a noite ou revela uma pista do que ela é e do que quer de você."
+  - "O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento pela entidade. Ex: Ela requer um serviço e te ameaça de retaliação se for contrariada; ela possui seu corpo durante a noite ou revela uma pista do que ela é e do que quer de você."
 
 assombrado: *haunted
 
@@ -2516,8 +2516,8 @@ enfermo: *infirm
 involuntarymedium: &involuntarymedium
   - '# Médium Involuntário'
   - Você resiste à possessão.
-  - A entidade ganha influência sobre você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome da entidade possessora. Ex: A entidade concede-lhe uma visão; faz uso do seu corpo; comunica-se com ou por meio de você; usa-o para tentar machucar alguém; segue-o escondido; exige algo de você; arrasta-o para outra dimensão.
-  - A entidade ganha controle sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome da entidade possessora. Ex: A entidade concede-lhe uma visão; faz uso do seu corpo; comunica-se com ou por meio de você; usa-o para tentar machucar alguém; segue-o escondido; exige algo de você; arrasta-o para outra dimensão.
+  - "A entidade ganha influência sobre você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome da entidade possessora. Ex: A entidade concede-lhe uma visão; faz uso do seu corpo; comunica-se com ou por meio de você; usa-o para tentar machucar alguém; segue-o escondido; exige algo de você; arrasta-o para outra dimensão."
+  - "A entidade ganha controle sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome da entidade possessora. Ex: A entidade concede-lhe uma visão; faz uso do seu corpo; comunica-se com ou por meio de você; usa-o para tentar machucar alguém; segue-o escondido; exige algo de você; arrasta-o para outra dimensão."
 
 mediuminvoluntario: *involuntarymedium
 
@@ -2540,16 +2540,16 @@ mentiroso: *liar
 lostidentity: &lostidentity
   - '# Perda de Identidade'
   - Você reprime sua identidade verdadeira, permanecendo no presente.
-  - Você tem indícios de sua identidade verdadeira. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua identidade verdadeira. Ex: Você reconhece pessoas ou lugares desconhecidos; organizações ou indivíduos do seu passado entram em contato com você; sua velha identidade influencia seus pensamentos ou ações; você sofre flashbacks traumáticos.
-  - Sua identidade verdadeira vem à tona. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua identidade verdadeira. Ex: Você reconhece pessoas ou lugares desconhecidos; organizações ou indivíduos do seu passado entram em contato com você; sua velha identidade influencia seus pensamentos ou ações; você sofre flashbacks traumáticos.
+  - "Você tem indícios de sua identidade verdadeira. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua identidade verdadeira. Ex: Você reconhece pessoas ou lugares desconhecidos; organizações ou indivíduos do seu passado entram em contato com você; sua velha identidade influencia seus pensamentos ou ações; você sofre flashbacks traumáticos."
+  - "Sua identidade verdadeira vem à tona. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua identidade verdadeira. Ex: Você reconhece pessoas ou lugares desconhecidos; organizações ou indivíduos do seu passado entram em contato com você; sua velha identidade influencia seus pensamentos ou ações; você sofre flashbacks traumáticos."
 
 perdadeidentidade: *lostidentity
 
 marked: &marked
   - '# Marcado'
   - Você ainda está no controle.
-  - Você alimenta a escuridão. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão.
-  - A escuridão ganha poder sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão.
+  - "Você alimenta a escuridão. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão."
+  - "A escuridão ganha poder sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão."
 
 marcado: *marked
 
@@ -2564,13 +2564,13 @@ compulsaomental: *mentalcompulsion
 nemesis: &nemesis
   - '# Nêmesis'
   - No momento, você está em segurança com relação à seu nêmesis.
-  - Você se descuidou e seu nêmesis age contra você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu nêmesis. Ex: Ele ataca quando você estiver sozinho; usa segredos seus, descobertos por ele, para o extorquir; intimida-o; contrata capangas para capturá-lo; ataca algo ou alguém que você ama.
-  - Você compromete sua posição e seu nêmesis ataca-o com toda força. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu nêmesis. Ex: Ele ataca quando você estiver sozinho; usa segredos seus, descobertos por ele, para o extorquir; intimida-o; contrata capangas para capturá-lo; ataca algo ou alguém que você ama.
+  - "Você se descuidou e seu nêmesis age contra você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu nêmesis. Ex: Ele ataca quando você estiver sozinho; usa segredos seus, descobertos por ele, para o extorquir; intimida-o; contrata capangas para capturá-lo; ataca algo ou alguém que você ama."
+  - "Você compromete sua posição e seu nêmesis ataca-o com toda força. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu nêmesis. Ex: Ele ataca quando você estiver sozinho; usa segredos seus, descobertos por ele, para o extorquir; intimida-o; contrata capangas para capturá-lo; ataca algo ou alguém que você ama."
 
 nightmares: &nightmares
   - '# Pesadelos'
   - Você dorme em paz.
-  - Os pesadelos te atormentam. O Mestre pode fazer um Movimento por seus pesadelos. Ex: Você não consegue de jeito nenhum dormir à noite (-1 constante até conseguir); algo o segue de volta à realidade; os pesadelos trazem insights sobre a Verdade; você é forçado a processar algum trauma (Manter o Sangue-frio) ao acordar.
+  - "Os pesadelos te atormentam. O Mestre pode fazer um Movimento por seus pesadelos. Ex: Você não consegue de jeito nenhum dormir à noite (-1 constante até conseguir); algo o segue de volta à realidade; os pesadelos trazem insights sobre a Verdade; você é forçado a processar algum trauma (Manter o Sangue-frio) ao acordar."
   - Os pesadelos te dominam completamente. Você fica preso no sonho até achar um jeito de acordar, e tudo que acontece lá também afeta o seu corpo adormecido.
 
 pesadelos: *nightmares
@@ -2586,24 +2586,24 @@ juramentodevinganca: *oathofrevenge
 objectofdesire: &objectofdesire
   - '# Objeto de Desejo'
   - O desejo não é despertado nesse momento.
-  - Alguém passa a desejá-lo. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para incitar o desejo em uma pessoa, influenciando seu comportamento. Ex: Alguém fica descontroladamente apaixonado por você; tenta forçá-lo; dá fortemente em cima de você; fica com muitos ciúmes; tenta causar dano aos outros ou a si mesmo em nome do desejo que tem por você.
-  - Um forte desejo é despertado em uma ou mais pessoas. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para incitar o desejo em uma pessoa, influenciando seu comportamento. Ex: Alguém fica descontroladamente apaixonado por você; tenta forçá-lo; dá fortemente em cima de você; fica com muitos ciúmes; tenta causar dano aos outros ou a si mesmo em nome do desejo que tem por você.
+  - "Alguém passa a desejá-lo. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para incitar o desejo em uma pessoa, influenciando seu comportamento. Ex: Alguém fica descontroladamente apaixonado por você; tenta forçá-lo; dá fortemente em cima de você; fica com muitos ciúmes; tenta causar dano aos outros ou a si mesmo em nome do desejo que tem por você."
+  - "Um forte desejo é despertado em uma ou mais pessoas. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para incitar o desejo em uma pessoa, influenciando seu comportamento. Ex: Alguém fica descontroladamente apaixonado por você; tenta forçá-lo; dá fortemente em cima de você; fica com muitos ciúmes; tenta causar dano aos outros ou a si mesmo em nome do desejo que tem por você."
 
 objetodedesejo: *objectofdesire
 
 obsession: &obsession
   - '# Obsessão'
   - Você supera a sua obsessão no momento.
-  - Sua obsessão influencia-lhe o comportamento. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer sua obsessão influenciar sua vida diária. Ex: Você é forçado a escolher entre se dedicar a ela ou perder Estabilidade; esquece-se de tarefas importantes, perde reuniões ou negligenciar suas Relações, apenas para focar em sua obsessão; ela influencia seus sonhos, dando-lhe visões e revelações. Em troca, o objeto de sua obsessão também o nota e tenta impedir suas investigações.
-  - Sua obsessão domina-o completamente. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer sua obsessão influenciar sua vida diária. Ex: Você é forçado a escolher entre se dedicar a ela ou perder Estabilidade; esquece-se de tarefas importantes, perde reuniões ou negligenciar suas Relações, apenas para focar em sua obsessão; ela influencia seus sonhos, dando-lhe visões e revelações. Em troca, o objeto de sua obsessão também o nota e tenta impedir suas investigações.
+  - "Sua obsessão influencia-lhe o comportamento. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer sua obsessão influenciar sua vida diária. Ex: Você é forçado a escolher entre se dedicar a ela ou perder Estabilidade; esquece-se de tarefas importantes, perde reuniões ou negligenciar suas Relações, apenas para focar em sua obsessão; ela influencia seus sonhos, dando-lhe visões e revelações. Em troca, o objeto de sua obsessão também o nota e tenta impedir suas investigações."
+  - "Sua obsessão domina-o completamente. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer sua obsessão influenciar sua vida diária. Ex: Você é forçado a escolher entre se dedicar a ela ou perder Estabilidade; esquece-se de tarefas importantes, perde reuniões ou negligenciar suas Relações, apenas para focar em sua obsessão; ela influencia seus sonhos, dando-lhe visões e revelações. Em troca, o objeto de sua obsessão também o nota e tenta impedir suas investigações."
 
 obsessao: *obsession
 
 owned: &owned
   - '# Propriedade'
   - Por enquanto você está seguro.
-  - Seu antigo dono encontra seu rastro. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu antigo proprietário. Ex: Aparecer inesperadamente tentando convencê-lo a voltar; enviar capangas atrás de você; sequestrar ou ferir alguém com que você se importa; ameaçá-lo diretamente; destruir algo importante para você; tentar mutilá-lo para que ninguém mais o queira; matá-lo para que ninguém mais possa possui-lo.
-  - Seu dono te acha. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu antigo proprietário. Ex: Aparecer inesperadamente tentando convencê-lo a voltar; enviar capangas atrás de você; sequestrar ou ferir alguém com que você se importa; ameaçá-lo diretamente; destruir algo importante para você; tentar mutilá-lo para que ninguém mais o queira; matá-lo para que ninguém mais possa possui-lo.
+  - "Seu antigo dono encontra seu rastro. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu antigo proprietário. Ex: Aparecer inesperadamente tentando convencê-lo a voltar; enviar capangas atrás de você; sequestrar ou ferir alguém com que você se importa; ameaçá-lo diretamente; destruir algo importante para você; tentar mutilá-lo para que ninguém mais o queira; matá-lo para que ninguém mais possa possui-lo."
+  - "Seu dono te acha. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu antigo proprietário. Ex: Aparecer inesperadamente tentando convencê-lo a voltar; enviar capangas atrás de você; sequestrar ou ferir alguém com que você se importa; ameaçá-lo diretamente; destruir algo importante para você; tentar mutilá-lo para que ninguém mais o queira; matá-lo para que ninguém mais possa possui-lo."
 
 propriedade: *owned
 
@@ -2655,8 +2655,8 @@ rival: &rival
 schizophrenia: &schizophrenia
   - '# Esquizofrenia'
   - Você mantém sua insanidade sob controle.
-  - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para realizar Movimentos por sua esquizofrenia. Ex: Uma das alucinações toma forma física; você enxerga o ambiente à sua volta como hostil; você alucina terrivelmente; fica sujeito à visões obscuras (verdadeiras ou falsas); descobre que alguém à sua volta não é real.
-  - A esquizofrenia domina-o. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para realizar Movimentos por sua esquizofrenia. Ex: Uma das alucinações toma forma física; você enxerga o ambiente à sua volta como hostil; você alucina terrivelmente; fica sujeito à visões obscuras (verdadeiras ou falsas); descobre que alguém à sua volta não é real.
+  - "O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para realizar Movimentos por sua esquizofrenia. Ex: Uma das alucinações toma forma física; você enxerga o ambiente à sua volta como hostil; você alucina terrivelmente; fica sujeito à visões obscuras (verdadeiras ou falsas); descobre que alguém à sua volta não é real."
+  - "A esquizofrenia domina-o. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para realizar Movimentos por sua esquizofrenia. Ex: Uma das alucinações toma forma física; você enxerga o ambiente à sua volta como hostil; você alucina terrivelmente; fica sujeito à visões obscuras (verdadeiras ou falsas); descobre que alguém à sua volta não é real."
 
 esquizofrenia: *schizophrenia
 
@@ -2675,24 +2675,24 @@ neurosesexual: *sexualneurosis
 stalker: &stalker
   - '# Alvo de Perseguição'
   - Você está seguro por enquanto.
-  - Seus inimigos te localizaram. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus perseguidores. Ex: Um associado confiável foi comprado por eles; uma pessoa amada por você ou um aliado desaparece; algo que você está tentando fazer é prejudicado por seus inimigos; eles deliberamente tentam machucá-lo.
-  - Seus inimigos te alcançaram. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus perseguidores. Ex: Um associado confiável foi comprado por eles; uma pessoa amada por você ou um aliado desaparece; algo que você está tentando fazer é prejudicado por seus inimigos; eles deliberamente tentam machucá-lo.
+  - "Seus inimigos te localizaram. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus perseguidores. Ex: Um associado confiável foi comprado por eles; uma pessoa amada por você ou um aliado desaparece; algo que você está tentando fazer é prejudicado por seus inimigos; eles deliberamente tentam machucá-lo."
+  - "Seus inimigos te alcançaram. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus perseguidores. Ex: Um associado confiável foi comprado por eles; uma pessoa amada por você ou um aliado desaparece; algo que você está tentando fazer é prejudicado por seus inimigos; eles deliberamente tentam machucá-lo."
 
 alvodeperseguicao: *stalker
 
 victimofpassion: &victimofpassion
   - '# Vítima da Paixão'
   - Você mantém sua paixão sob controle.
-  - A paixão desperta dentro de você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você.
-  - Você está completamente nas garras da paixão. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você.
+  - "A paixão desperta dentro de você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você."
+  - "Você está completamente nas garras da paixão. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você."
 
 vitimadapaixao: *victimofpassion
 
 wanted: &wanted
   - '# Procurado'
   - Você está seguro, por enquanto.
-  - Você cometeu um erro. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelas autoridades. Ex: Seu retrato falado aparece na televisão e nos jornais; policiais tentam capturá-lo; alguém importante pra você é detido e interrogado; suas posses são confiscadas; seus amigos/familiares são colocados contra você.
-  - Todos os olhos estão em você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelas autoridades. Ex: Seu retrato falado aparece na televisão e nos jornais; policiais tentam capturá-lo; alguém importante pra você é detido e interrogado; suas posses são confiscadas; seus amigos/familiares são colocados contra você.
+  - "Você cometeu um erro. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelas autoridades. Ex: Seu retrato falado aparece na televisão e nos jornais; policiais tentam capturá-lo; alguém importante pra você é detido e interrogado; suas posses são confiscadas; seus amigos/familiares são colocados contra você."
+  - "Todos os olhos estão em você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelas autoridades. Ex: Seu retrato falado aparece na televisão e nos jornais; policiais tentam capturá-lo; alguém importante pra você é detido e interrogado; suas posses são confiscadas; seus amigos/familiares são colocados contra você."
 
 procurado: *wanted
 
