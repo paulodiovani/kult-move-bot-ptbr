@@ -323,6 +323,8 @@ erotic: &erotic
     - A pessoa fica enciumada diante de qualquer um competindo por sua atenção, tentando desfazer-se do rival a qualquer custo.
     - Você deixa a pessoa insegura e confusa. Receba +1 constante contra ela durante a cena.
 
+erotico: &erotic
+
 fascination: &fascination
   - '# Fascinação'
   - |
@@ -341,6 +343,8 @@ fascination: &fascination
     - Ele é absorvido por sua arte e esquece de tudo à volta.
   - Ele é afetado por você de um modo imprevisto ou a atração é forte e desagradável. O Mestre faz um Movimento.
 
+fascinacao: &fascination
+
 forkedtongue: &forkedtongue
   - '# Charme de Serpente'
   - |
@@ -358,6 +362,8 @@ forkedtongue: &forkedtongue
       - Ele revela uma fraqueza a ser explorada depois.
   - Ele nota de cara sua manipulação e age como bem quiser.
 
+charmedeserpente: &forkedtongue
+
 impostor: &impostor
   - '# Impostor'
   - Sua vítima é capaz de dar tudo o que você precisa.
@@ -369,6 +375,8 @@ influentialfriends: &influentialfriends
   - Seus amigos tem como obter o que você precisa.
   - Eles conseguem o que você quer, mas é necessário retribuir o favor depois.
   - Eles arranjam o que é necessário, mas você fica em maus lençóis com uma pessoa poderosa ou atrai publicidade negativa. O Mestre faz um Movimento.
+
+amigosinfluentes: &influentialfriends
 
 moles: &moles
   - '# Arapongas'
@@ -383,6 +391,8 @@ moles: &moles
     - O espião infiltra-se no interior da organização, mas sua influência é limitada.
     - O espião te deve uma; contudo, você precisa atender às exigências dele para conseguir o que quer.
   - A lealdade do espião é questionável. Você pode confiar nele? O Mestre faz um Movimento.
+
+arapongas: &moles
 
 networkofcontacts: &networkofcontacts
   - '# Rede de Contatos'
@@ -408,11 +418,15 @@ networkofcontacts: &networkofcontacts
     - O que ela quer?
     - O que ela mais teme perder?
 
+rededecontatos: &networkofcontacts
+
 notorious: &notorious
   - '# Notório'
   - Ele sabe de sua reputação; você pode decidir o que ele ouviu falar. O Mestre fará com que ele aja de acordo. Você ganha +2 em sua próxima rolagem para o Influenciar.
   - Ele sabe de sua reputação; você pode decidir o que ele ouviu falar.
   - Ele sabe de sua reputação; o Mestre decide o que ele ouviu falar.
+
+notorio: &notorious
 
 perpetualvictim: &perpetualvictim
   - '# Vítima Perpétua'
@@ -429,6 +443,8 @@ perpetualvictim: &perpetualvictim
     - Fazer uma pessoa agressiva não querer atacá-lo.
     - Fazer alguém confiar em você.
   - Alguém tenta tirar vantagem de você e da situação. O Mestre faz um Movimento.
+
+vitimaperpetua: &perpetualvictim
 
 seducer: &seducer
   - '# sedutor'
@@ -463,6 +479,8 @@ seducer: &seducer
     - Faça-o sentir-se mal por ter te contrariado (ele precisa Manter o Sangue-frio).
     - Ele se sente feliz com você por perto, ele ganha Estabilidade (+2).
 
+sedutor: &seducer
+
 streetcontacts: &streetcontacts
   - '# Contatos de Rua'
   - |
@@ -484,6 +502,8 @@ streetcontacts: &streetcontacts
     - Como eu faço pra chegar em [lugar]?
     - Quem na cidade saberia mais sobre essa coisa sobrenatural?
 
+contatosderua: &streetcontacts
+
 streetwise: &streetwise
   - '# Manhas das Ruas'
   - Sem problemas – você consegue o que precisa. Alguém te arranjará rapidinho.
@@ -494,6 +514,8 @@ streetwise: &streetwise
     - “Merda, eu tinha um, mas acabei de mandar pra [nome] – talvez você possa comprar dele?”.
     - “Foi mal, mas isso é meio fora da minha área. Esse outro aqui serve?”.
   - Você pensa ter achado o que precisava, mas haverá imposição de custos, danos consideráveis ou grandes complicações. O Mestre faz um Movimento.
+
+manhasdasruas: &streetwise
 
 aceupthesleeve: &aceupthesleeve
   - '# Ás na Manga'
@@ -516,6 +538,8 @@ aceupthesleeve: &aceupthesleeve
     - Perceber em seu oponente uma fraqueza que você pode explorar (receba +2 para sua próxima rolagem, se envolver explorar a fraqueza). Pergunte ao Mestre o que é.
     - Ver uma saída. Pergunte ao Mestre qual é. Receba +2 em sua próxima rolagem para utilizá-la.
 
+asnamanga: &aceupthesleeve
+
 backstab: &backstab
   - '# Traiçoeiro'
   - |
@@ -532,6 +556,8 @@ backstab: &backstab
     - Cautela: Você age em silêncio e não deixa pistas ou rastros, caso a sua vítima morra.
   - Você expõe sua traição, e seu alvo consegue reagir ao seu ataque. O Mestre faz um Movimento.
 
+traicoeiro: &backstab
+
 boss: &boss
   - '# Chefe'
   - Eles seguem suas ordens e tudo sai conforme o planejado.
@@ -541,6 +567,8 @@ boss: &boss
     - O trabalho não é completado, pois falta algo.
     - Haverá repercussões.
   - O Mestre decide o que deu errado e quando isso é evidente, de imediato ou tardiamente. O Mestre faz um Movimento.
+
+chefe: &boss
 
 burglar: &burglar
   - '# Gatuno'
@@ -569,6 +597,8 @@ burglar: &burglar
     - Conseguir evitar que alguém o descubra.
     - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
 
+gatuno: &burglar
+
 driver: &driver
   - '# Motorista'
   - |
@@ -593,11 +623,15 @@ driver: &driver
     - Usar seu veículo como arma contra um pedestre (2/3/4 Dano dependendo da velocidade).
     - Jogar outro veículo para fora da estrada.
 
+motorista: &driver
+
 escapeartist: &escapeartist
   - '# Escapista'
   - Você escapa sem problemas.
   - Escolha entre ficar ou escapar com algum prejuízo. Ex: Deixar algo importante para trás ou levar algo rastreável com você. O Mestre decide.
   - Você é interceptado a meio caminho andado, num péssimo ponto. O Mestre faz um Movimento.
+
+escapista: &escapeartist
 
 fasttalk: &fasttalk
   - '# Falastrão'
@@ -619,6 +653,8 @@ fasttalk: &fasttalk
     - Impedir o PdM de notar algo nas proximidades.
     - Fazer o PdM revelar algo importante (o Mestre dará os detalhes).
     - Distrair o PdM. Você ganha +1 para sua próxima rolagem contra ele.
+
+falastrao: &fasttalk
 
 icecold: &icecold
   - '# Frio como Gelo'
@@ -644,6 +680,8 @@ icecold: &icecold
     - Mudar para uma posição melhor.
     - Colocar alguém em posição ruim (todos ganham +2 para Movimentos de ataque).
 
+friocomogelo: &icecold
+
 improviser: &improviser
   - '# Improvisação'
   - |
@@ -661,6 +699,8 @@ improviser: &improviser
     - Esconder-se de um perseguidor.
     - Armar uma armadilha, dando-lhe um elemento surpresa (+2 para seu primeiro Movimento de ataque).
   - Sua improvisação piora a situação. O Mestre faz um Movimento.
+
+improvisacao: &improviser
 
 parkour: &parkour
   - '# Parkour'
@@ -704,6 +744,8 @@ sneak: &sneak
     - Achar uma rota alternativa para não cruzar com ninguém.
     - Ultrapassar, sem ser notado, um sistema de segurança ou algum outro obstáculo.
 
+sorrateiro: &sneak
+
 weaponmaster: &weaponmaster
   - '# Mestre das Armas'
   - |
@@ -728,6 +770,8 @@ weaponmaster: &weaponmaster
     - Dois tiros no peito e um na cabeça [4] [Distância: um cômodo, -2 munição]
     - Desarmar [1] [Distância: um cômodo, -1 munição, um PJ alvo deve Agir Sob Pressão]
 
+mestredasarmas: &weaponmaster
+
 animalspeaker: &animalspeaker
   - '# Fala com Animais'
   - |
@@ -749,6 +793,8 @@ animalspeaker: &animalspeaker
     - Fazer o animal seguir você.
     - Fazer o animal protegê-lo de um agressor.
 
+falacomanimais: &animalspeaker
+
 chameleon: &chameleon
   - '# Camaleão'
   - Seu disfarce é convincente, enquanto a atuação for mantida.
@@ -757,6 +803,8 @@ chameleon: &chameleon
     - Não conseguir manter as aparências por muito tempo. Você precisa agir rápido, se não quiser dar nas vistas.
     - Deixar rastros e pistas para trás, podendo ser conectadas a você depois.
   - Seu disfarce só é efetivo à distância. Se atrair qualquer atenção, você ficará exposto.
+
+camaleao: &chameleon
 
 characteractor: &characteractor
   - '# Coadjuvante'
@@ -782,6 +830,8 @@ characteractor: &characteractor
     - Conseguir que alguém lhe conte sobre os segredos desse lugar.
     - Conseguir ajuda de alguém com algo ali.
 
+coadjuvante: &characteractor
+
 crafty: &crafty
   - '# Astuto'
   - |
@@ -798,6 +848,8 @@ crafty: &crafty
     - Ele te faz um favor por vontade própria.
   - Já era, te pegaram. O Mestre faz um Movimento.
 
+astuto: &crafty
+
 extortionist: &extortionist
   - '# Extorsor'
   - |
@@ -813,17 +865,23 @@ extortionist: &extortionist
     - Do que você tem medo?
     - O que é precioso para você?
 
+extorsor: &extortionist
+
 interrogator: &interrogator
   - '# Interrogador'
   - Ao Ler uma pessoa e mencionar um nome, pessoa ou objeto, poderá perguntar “Você está mentindo?”. Isso não conta para o número de perguntas normalmente permitidas.
   - Ao Ler uma pessoa e mencionar um nome, pessoa ou objeto, poderá perguntar “Você está mentindo?”. Isso não conta para o número de perguntas normalmente permitidas.
   - Ao Ler uma pessoa e mencionar um nome, pessoa ou objeto, poderá perguntar “Você está mentindo?”. Isso não conta para o número de perguntas normalmente permitidas.
 
+interrogador: &interrogator
+
 intuitive: &intuitive
   - '# Intuitivo'
   - Você percebe as motivações das pessoas por meio de leituras subconscientes da linguagem corporal, escolha de palavras e comportamento delas. Ao Ler uma Pessoa, você sempre pode fazer uma pergunta adicional, independente do resultado de sua rolagem.
   - Você percebe as motivações das pessoas por meio de leituras subconscientes da linguagem corporal, escolha de palavras e comportamento delas. Ao Ler uma Pessoa, você sempre pode fazer uma pergunta adicional, independente do resultado de sua rolagem.
   - Você percebe as motivações das pessoas por meio de leituras subconscientes da linguagem corporal, escolha de palavras e comportamento delas. Ao Ler uma Pessoa, você sempre pode fazer uma pergunta adicional, independente do resultado de sua rolagem.
+
+intuitivo: &intuitive
 
 observant: &observant
   - '# Observador'
@@ -840,6 +898,8 @@ observant: &observant
     - What sort of person are you?
     - Is there anything odd about you?
 
+observador: &observant
+
 vigilant: &vigilant
   - '# Atento'
   - |
@@ -855,6 +915,8 @@ vigilant: &vigilant
     - Você está escondendo algo de mim?
     - Como você realmente se sente a meu respeito?
 
+atento: &vigilant
+
 accessthedarknet: &accessthedarknet
   - '# Acesso à Dark Net'
   - |
@@ -864,6 +926,8 @@ accessthedarknet: &accessthedarknet
     - Encontra algo valioso ou importante, além do procurado. O Mestre lhe dirá o que é.
   - Você encontra o que estava procurando, porém é exposto a estímulos repulsivos e assustadores. Será preciso Manter o Sangue-frio para você descobrir como será afetado.
   - Você encontra o procurado. Entretanto, acaba entrando em contato com algo muito perigoso, o qual tenta agarrá-lo ou segui-lo de volta à realidade. O Mestre faz um Movimento.
+
+acessoadarknet: &accessthedarknet
 
 bodyawareness: &bodyawareness
   - '# Consciência Corporal'
@@ -886,6 +950,8 @@ bodyawareness: &bodyawareness
     - Ultrapassar um obstáculo (criatura ou objeto).
     - Esgueirar-se por um espaço que normalmente você não conseguiria.
 
+conscienciacorporal: &bodyawareness
+
 daredevil: &daredevil
   - '# Audacioso'
   - |
@@ -907,6 +973,8 @@ daredevil: &daredevil
     - Get out of the way: Saia do caminho: Evite um ataque.
     - Assuma a dianteira: Cause dano a seu oponente antes dele reagir.
 
+audacioso: &daredevil
+
 exitstrategy: &exitstrategy
   - '# Estratégia de Fuga'
   - |
@@ -927,6 +995,8 @@ exitstrategy: &exitstrategy
     - Você deixa a cena do crime sem ser notado e chega até um lugar próximo seguro. Descreva como.
     - Você não deixa pistas
     - O corpo está bem escondido e por ora não será encontrado.
+
+estrategiadefuga: &exitstrategy
 
 eyefordetail: &eyefordetail
   - '# Olhar Minuncioso'
@@ -952,6 +1022,8 @@ eyefordetail: &eyefordetail
     - Por que você está aqui?
     - No que você está trabalhando?
 
+olharminuncioso: &eyefordetail
+
 hunter: &hunter
   - '# Caçador'
   - |
@@ -973,11 +1045,15 @@ hunter: &hunter
     - Camuflagem (receba +2 para Agir sob Pressão enquanto se esconder).
     - Mover-se nas sombras (receba +2 em Evitar Ferimento contra uma arma de longo alcance).
 
+cacador: &hunter
+
 instinct: &instinct
   - '# Instinto'
   - Ao Observar uma Situação e agir de acordo com as respostas do Mestre, receba +2 ao invés de +1.
   - Ao Observar uma Situação e agir de acordo com as respostas do Mestre, receba +2 ao invés de +1.
   - Ao Observar uma Situação e agir de acordo com as respostas do Mestre, receba +2 ao invés de +1.
+
+instinto: &instinct
 
 keen-eyed:
   - '# Olho Vivo'
@@ -1015,6 +1091,8 @@ readacrowd: &readacrowd
     - Quem está me vigiando?
     - Aqui há qualquer outra coisa do meu interesse?
 
+leramultidao: &readacrowd
+
 shadow: &shadow
   - '# Sombra'
   - |
@@ -1029,6 +1107,8 @@ shadow: &shadow
     Você é descoberto ou encontra algum problema no caminho. O Mestre faz um Movimento.
 
     Por outro lado, quando quiser despistar alguém, agindo como uma sombra: Seus perseguidores ainda estão na sua cola, podendo preparar uma armadilha. Eles podem desaparecer sem deixar rastros (apenas para surpreendê-lo depois), ou recusarem-se a sumir. O Mestre faz um Movimento.
+
+sombra: &shadow
 
 survivalist: &survivalist
   - '# Sobrevivente'
@@ -1050,6 +1130,8 @@ survivalist: &survivalist
     - Encontrar água e algo comestível.
     - Ultrapassar algum obstáculo do ambiente.
     - Encontrar um lugar seguro para se esconder e descansar.
+
+sobrevivente: &survivalist
 
 wanderer: &wanderer
   - '# Itinerante'
@@ -1075,6 +1157,8 @@ wanderer: &wanderer
     -Ali você possui um esconderijo onde pode descansar um pouco.
     - Você sabe algo sobre esse lugar. Conte aos outros o quê.
 
+itinerante: &wanderer
+
 analyst: &analyst
   - '# Analista'
   - |
@@ -1093,6 +1177,8 @@ analyst: &analyst
     - Existe conexão entre isso e algum outro evento?
     - Há um motivo plausível?
 
+analista: &analyst
+
 battlefieldmedicine: &battlefieldmedicine
   - '# Medicina de Campanha'
   - |
@@ -1109,16 +1195,20 @@ battlefieldmedicine: &battlefieldmedicine
     - Cuidadoso: A ferida se estabiliza, melhorando muito mais rápido do que o normal.
 
     mas você deve escolher também uma complicação:
-    - Você deixa cicatrizes ou deformidades (o paciente perde Estabilidade (-2).
-        - Há efeitos colaterais persistentes (-1 em todas as rolagens afetadas pelo ferimento até que ele esteja completamente curado).
-        - paciente fica desmaiado até o Mestre determinar que ele acorde.
+      - Você deixa cicatrizes ou deformidades (o paciente perde Estabilidade (-2).
+      - Há efeitos colaterais persistentes (-1 em todas as rolagens afetadas pelo ferimento até que ele esteja completamente curado).
+      - paciente fica desmaiado até o Mestre determinar que ele acorde.
   - Você estabiliza o ferimento, mesmo sem equipamento médico. Entretanto há consequências inesperadas e potencialmente perigosas, como infecções, deformidades ou outros sérios efeitos colaterais. O Mestre faz um Movimento.
+
+medicinadecampanha: &battlefieldmedicine
 
 collector: &collector
   - '# Colecionador'
   - Você sabe exatamente onde está o item, como consegui- lo e minimizar perigos, obstáculos e/ou custos associados à sua aquisição.
   - Você sabe mais ou menos onde está o item, além dos perigos, obstáculos e/ou custos associados à sua aquisição.
   - Você sabe mais ou menos por onde começar a procurar, mas não conhece os perigos, obstáculos e/ou custos associados em tentar encontrá-lo.
+
+colecionador: &collector
 
 crimesceneinvestigator: &crimesceneinvestigator
   - '# Perito Criminal'
@@ -1149,6 +1239,8 @@ crimesceneinvestigator: &crimesceneinvestigator
     - O crime me lembra de algo familiar? Se sim, o quê?
     - Quem pode saber mais sobre o crime?
 
+peritocriminal: &crimesceneinvestigator
+
 dataretrieval: &dataretrieval
   - '# Coletor de Dados'
   - |
@@ -1172,6 +1264,8 @@ dataretrieval: &dataretrieval
     - Como isso funciona?
     - Com o que é preciso tomar cuidado?
     - Como posso parar ou destruir isso?
+
+coletordedados: &dataretrieval
 
 expert: &expert
   - '# Especialista'
@@ -1209,6 +1303,8 @@ expert: &expert
     - Teologia
     - (Outros)
 
+especialista: &expert
+
 explosivesexpert: &explosivesexpert
   - '# Especialista de explosões'
   - |
@@ -1220,6 +1316,8 @@ explosivesexpert: &explosivesexpert
   - |
     A bomba é imprevisível. Talvez não detone, exploda prematuramente, ou seja mais instável e poderosa do que o esperado. O Mestre faz um Movimento.
     Ao desarmar uma bomba:  Isso vai dar merda! A bomba pode explodir em suas mãos, o contador iniciar uma contagem regressiva de 10, 9, 8, 7…, ou problemas ainda maiores. O Mestre faz um Movimento.
+
+especialistadeexplosoes: &explosivesexpert
 
 hacker: &hacker
   - '# Hacker'
@@ -1272,6 +1370,8 @@ manhunter: &manhunter
     - Onde ela se encontra no momento?
     - Qual é o melhor modo de chegar até ela?
 
+farejador: &manhunter
+
 occultlibrary: &occultlibrary
   - '# Biblioteca de Ocultismo'
   - |
@@ -1293,6 +1393,8 @@ occultlibrary: &occultlibrary
     - A qual dimensão isso está relacionado?
     - O que preciso fazer para me proteger disso?
 
+bibliotecadeocultismo: &occultlibrary
+
 occultstudies: &occultstudies
   - '# Ciências Ocultas'
   - |
@@ -1306,6 +1408,8 @@ occultstudies: &occultstudies
     - Eu sei algo sobre isso (pergunte ao Mestre o que você sabe e ganhe +1 constante enquanto agir guiado por essa informação durante a cena).
     - Eu sei onde achar mais informações sobre isso (pergunte ao Mestre onde).
   - Você se lembra por alto de algo desse tipo, mas não sabe afirmar se é verdade ou não. O Mestre explica do que você se recorda.
+
+cienciasocultas: &occultstudies
 
 prepared: &prepared
   - '# Precavido'
@@ -1328,11 +1432,15 @@ prepared: &prepared
     - Descobrir quaisquer sistemas de segurança ou obstáculos.
     - Saber a localização exata de algo que você procura.
 
+precavido: &prepared
+
 puppeteer: &puppeteer
   - '# Titereiro'
   - Todos envolvidos ganham +1 constante para dar seguimento ao plano, e você ganha um de Experiência, se o plano tiver êxito.
   - Você ganha um de Experiência, caso o plano tenha êxito, porém você negligenciou ou calculou algo errado.
   - Seu plano é descoberto, inadequado e/ou equivocado. O Mestre faz um Movimento.
+
+titereiro: &puppeteer
 
 quickthinker: &quickthinker
   - '# Perspicaz'
@@ -1355,6 +1463,8 @@ quickthinker: &quickthinker
     - Ter algum equipamento a ser utilizado para sair de uma situação complicada. Pergunte ao Mestre o que é.
     - Possuir treinamento especial num campo útil para superar um dos obstáculos. Pergunte ao Mestre qual.
 
+perspicaz: &quickthinker
+
 scientist: &scientist
   - '# Cientista'
   - |
@@ -1372,6 +1482,8 @@ scientist: &scientist
     - Que propriedades ele possui? (Receba +1 para todas as rolagens contra entidades ou objetos semelhantes, na próxima vez que os encontrar).
     - Como eu faço uso dele? (Receba +1 para qualquer rolagem associada ao uso desse objeto).
     - Qual é o propósito dele?
+
+cientista: &scientist
 
 tracer: &tracer
   - '# Rastreador'
@@ -1394,6 +1506,8 @@ tracer: &tracer
     - Que marcas e pistas o alvo deixou para trás?
     - Quem mais está atrás do que estou procurando?
 
+rastreador: &tracer
+
 artifact: &artifact
   - '# Artefato'
   - |
@@ -1409,6 +1523,8 @@ artifact: &artifact
     - Livrá-lo de um vínculo.
     - Permitir a invocação da entidade vinculada ao artefato e negociar com ela.
   - O artefato faz algo inesperado, provavelmente perigoso. O Mestre faz um Movimento.
+
+artefato: &artifact
 
 bound: &bound
   - '# Vínculo'
@@ -1431,6 +1547,8 @@ bound: &bound
     - Dispersar magia contra você.
     - Invocar a entidade.
 
+vinculo: &bound
+
 charismaticaura: &charismaticaura
   - '# Aura Carismática'
   - |
@@ -1452,6 +1570,8 @@ charismaticaura: &charismaticaura
     - Mudar o ânimo de alguém quanto a você, de agressivo para desconfiado, de desconfiado para neutro ou de neutro para positivo.
     - Fazer oponentes verem-no como inofensivo e ignorarem-no enquanto você não agir contra eles.
 
+auracarismatica: &charismaticaura
+
 contagiousinsanity: &contagiousinsanity
   - '# Insanidade Contagiante'
   - |
@@ -1469,6 +1589,8 @@ contagiousinsanity: &contagiousinsanity
     - Afetar uma vítima adicional.
     - Convocar criaturas da loucura para assombrar o infectado.
   - Ao invés de contaminar sua vítima, os terrores e Segredos Sombrios dela se manifestam em você. Você precisa Manter o Sangue-frio.
+
+insanidadecontagiante: &contagiousinsanity
 
 cultleader: &cultleader
   - '# Líder de Culto'
@@ -1494,6 +1616,8 @@ cultleader: &cultleader
     - O propósito de um objeto.
     - Os desejos de sua divindade (receba +1 para todas as rolagens enquanto estiver realizando-os).
 
+liderdeculto: &cultleader
+
 dabblerintheoccult: &dabblerintheoccult
   - '# Ocultista Amador'
   - Você faz tudo certo e o ritual funciona como o planejado.
@@ -1503,6 +1627,8 @@ dabblerintheoccult: &dabblerintheoccult
     - Os efeitos do ritual serem ligeiramente diferentes do que você imaginava.
     - O ritual invoca entidades ou forças inesperadas.
   - Você entende errado os escritos e realiza o ritual sem nenhum controle sobre o resultado final. O Mestre faz um Movimento.
+
+ocultistaamador: &dabblerintheoccult
 
 divine: &divine
   - '# Divino'
@@ -1522,17 +1648,23 @@ divine: &divine
     - Acalme a criatura agressiva.
     - Comande a criatura e faça-a obedecer uma ordem.
 
+divino: &divine
+
 dreamer: &dreamer
   - '# Sonhador'
   - Você se encontra com a pessoa pretendida, ou alcança um local específico.
   - Você se encontra com a pessoa pretendida ou alcança um local específico. Entretanto, algum elemento mudou, ou alguma coisa seguiu você ou a pessoa em questão.
   - Você se perdeu no Sonho e não acordará até encontrar o caminho de volta.
 
+sonhador: &dreamer
+
 enhancedawareness: &enhancedawareness
   - '# Percepção Aumentada'
   - Você discerne detalhes claros sobre a localização.
   - Você recebe algumas informações básicas sobre a localização.
   - A Ilusão rasga-se. O véu é levantado temporariamente, revelando uma dimensão alternativa – o Mestre determina qual. O PJ é sugado para ela ou algo passa para a nossa realidade. O Mestre faz um Movimento.
+
+percepcaoaumentada: &enhancedawareness
 
 exorcist: &exorcist
   - '# Exorcista'
@@ -1549,6 +1681,8 @@ exorcist: &exorcist
     - A entidade não reaparece mais tarde.
     - A entidade não é hostil com você.
   - A criatura resiste e algo terrivelmente errado ocorre. Ex: a criatura te possui. O Mestre faz um Movimento.
+
+exorcista: &exorcist
 
 forbiddeninspiration: &forbiddeninspiration
   - '# Inspiração Proibida'
@@ -1571,6 +1705,8 @@ forbiddeninspiration: &forbiddeninspiration
     - Visões: Ver Através da Ilusão em um local específico de sua escolha.
     - Inspiração: Pergunte ao Mestre se há algo de estranho ou sobrenatural na situação na qual você se encontra. A resposta se revelará por meio da sua arte.
 
+inspiracaoproibida: &forbiddeninspiration
+
 genius: &genius
   - '# Gênio'
   - |
@@ -1592,11 +1728,15 @@ genius: &genius
     - Pensamento rápido: Você conhece uma maneira de proteger-se de Danos. Trate-a como se você tivesse rolado um (15+) em Evitar Ferimentos sempre que utilizá-la.
     - Racionalismo: Você percebe como se salvar sacrificando outra pessoa. Escolha a pessoa usada por você para escapar da ameaça.
 
+genio: &genius
+
 implantedmessages: &implantedmessages
   - '# Mensagens implantadas'
   - Você detém 2 de Poder sobre ele. Enquanto detiver Poder sobre esse ser humano, ele receberá 1 Ferimento Grave, caso recuse ou tente ir contra sua ordem. Porém isso diminui seu controle sobre ele em 1 Poder. Se ele cumprir sua ordem, todo seu Poder restante sobre ele será removido.
   - Você detém 1 Poder sobre ele. Enquanto detiver Poder sobre esse ser humano, ele receberá 1 Ferimento Grave, caso recuse ou tente ir contra sua ordem. Porém isso diminui seu controle sobre ele em 1 Poder. Se ele cumprir sua ordem, todo seu Poder restante sobre ele será removido.
   - Algo dá errado. Ex: Ele se machuca no processo, ou o resultado do comando é diferente daquele imaginado por você. O Mestre faz um Movimento.
+
+mensagensimplantadas: &implantedmessages
 
 innerpower: &innerpower
   - '# Poder Interior'
@@ -1604,11 +1744,15 @@ innerpower: &innerpower
   - O poder ataca seu oponente mais próximo, causando 2 Danos.
   - O poder ataca todos os seres vivos nas proximidades, inclusive você, causando 2 Danos.
 
+poderinterior: &innerpower
+
 layonhands: &layonhands
   - '# Mãos que Curam'
   - Cura completa da pessoa ferida, canalizando o Ferimento para você ou para um alvo selecionado.
   - Estabilização da pessoa ferida, canalizando o Ferimento para você ou para um alvo selecionado.
   - Opção pela estabilização da a pessoa ferida, mas se o fizer, os poderes escaparão de seu controle.
+
+maosquecuram: &layonhands
 
 magicalintuition: &magicalintuition
   - '# Intuição Mágica'
@@ -1631,6 +1775,8 @@ magicalintuition: &magicalintuition
     - Descobrir se algo tem uma natureza mágica.
     - Perceber onde a Ilusão é mais fraca em relação a outras dimensões.
 
+intuicaomagica: &magicalintuition
+
 magneticattraction: &magneticattraction
   - '# Atração Magnética'
   - |
@@ -1652,6 +1798,8 @@ magneticattraction: &magneticattraction
     - Alguém é atraído até você.
     - Alguém é obrigado a fazer o que você quer.
 
+atracaomagnetica: &magneticattraction
+
 sixthsense: &sixthsense
   - '# Sexto Sentido'
   - |
@@ -1668,6 +1816,8 @@ sixthsense: &sixthsense
     - Descobrir ou perceber uma pista ou direção quando estiver perdido.
   - Seus instintos falharão numa situação perigosa. O Mestre faz um Movimento em algum momento na sessão.
 
+sextosentido: &sixthsense
+
 snakecharmer: &snakecharmer
   - '# Encantador de Serpentes'
   - |
@@ -1681,6 +1831,8 @@ snakecharmer: &snakecharmer
     - Peça ajuda à criatura para resolver um problema.
     - Peça à criatura algo que você deseja.
   - O desejo está além da capacidade da criatura. Ela não consegue deixar de tentar devorá-lo ou aprisioná-lo.
+
+encantadordeserpentes: &snakecharmer
 
 stubborn: &stubborn
   - '# Teimoso'
@@ -1702,6 +1854,8 @@ stubborn: &stubborn
     - Recusar-se a desistir: Adie os efeitos de uma lesão crítica até que você esteja fora do alcance da ameaça.
     - Vontade acima da habilidade: Rolagem + Força de Vontade ao invés do atributo normal, sempre que evitar o que estiver ameaçando-o, ou lutar contra ele.
     - Blindar-se: Liberte-se de um efeito sobrenatural.
+
+teimoso: &stubborn
 
 voiceofinsanity: &voiceofinsanity
   - '# Voz da Insanidade'
@@ -1730,6 +1884,8 @@ voiceofinsanity: &voiceofinsanity
     - Incitar a multidão a uma orgia de emoções desenfreadas: luxúria sexual, raiva, pesar, violência, generosidade ou celebração, dependendo de quais ideias você incuta nelas.
     - Fazer com que a multidão se disperse e retorne calmamente à vida normal.
 
+vozdainsanidade: &voiceofinsanity
+
 voiceofpain: &voiceofpain
   - '# Voz da Dor'
   - |
@@ -1751,17 +1907,23 @@ voiceofpain: &voiceofpain
     - Você encontra o ponto fraco de seu oponente (cause +1 Dano sempre que Participar do Combate com ele).
     - Você percebe o padrão de ataque de seu oponente (receba +1 para Suportar Ferimentos sempre que ele o atacar). Esses efeitos serão permanentes contra esse oponente.
 
+vozdador: &voiceofpain
+
 wayfinder: &wayfinder
   - '# Navegação'
   - Você descobre um atalho pelos becos que o leva ao seu destino em alguns minutos, não importando a distância real.
   - Você descobre um atalho. Entretanto há algum tipo de obstáculo a ser superado.
   - Você descobre um atalho, porém ele o leva a uma situação perigosa, como ao covil de alguma criatura ou a uma emboscada armada por alguma gangue. O Mestre faz um Movimento.
 
+navegacao: &wayfinder
+
 deadlystare: &deadlystare
   - '# Olhar Assassino'
   - Você faz contato visual com um PdM, paralisando-o e não o deixando ser capaz de executar nenhuma ação até você quebrar o contato visual. Você também recebe +2 constante contra seu alvo.
   - Você faz contato visual com um PdM, paralisando-o e não o deixando ser capaz de executar nenhuma ação até você quebrar o contato visual.
   - Seus oponentes te veem como principal ameaça.
+
+olharassassino: &deadlystare
 
 deathdrive: &deathdrive
   - '# Pulsão de Morte'
@@ -1787,6 +1949,8 @@ deathdrive: &deathdrive
     - Frenético: Ficar ao alcance para atacar um inimigo.
     - Imprudente: Assustar seus oponentes rindo diante da morte (+1 constante durante a luta).
 
+pulsaodemorte: &deathdrive
+
 enforcer: &enforcer
   - '# Algoz'
   - A pessoa deve decidir entre fazer o que você quer ou desafiá-lo, ciente de que você possa executar sua ameaça.
@@ -1797,6 +1961,8 @@ enforcer: &enforcer
     - Ele fica aterrorizado; você tem +1 constante em todas as jogadas contra ele até ser provado que ele não tem medo de você.
     - Ele te ataca de uma posição desfavorável. Você recebe +2 na rolagem para Participar do Combate, se você contra-atacar.
   - Você não tem toda essa vantagem que acredita ter. O Mestre faz um Movimento.
+
+algoz: &enforcer
 
 fieldagent: &fieldagent
   - '# Agente de Campo'
@@ -1822,6 +1988,8 @@ fieldagent: &fieldagent
     - Desarmar: Remover a arma de um oponente em combate corpo a corpo.
     - Arma improvisada: Executar um ataque letal de combate corpo a corpo usando um objeto aparentemente inofensivo (Ataque Surpresa [2] [Distância: um braço]).
 
+agentedecampo: &fieldagent
+
 gangleader: &gangleader
   - '# Líder de Gangue'
   - Eles cumprem suas ordens, sem questionar.
@@ -1831,11 +1999,15 @@ gangleader: &gangleader
     - Todos ficam descontentes por algum tempo.
   - Surgem problemas. Talvez algo dê errado ao executar suas ordens ou eles duvidem de suas habilidades como líder. O Mestre faz um Movimento.
 
+liderdegangue: &gangleader
+
 intimidating: &intimidating
   - '# Ameaçador'
   - Ele sucumbe ao medo e cede às suas demandas.
   - Ele foge ou cede a você, à escolha do Mestre.
   - Ele enxerga você como principal ameaça e age de acordo com isso. O Mestre faz um Movimento por eles.
+
+ameacador: &intimidating
 
 lightningfast: &lightningfast
   - '# Veloz como um Raio'
@@ -1857,6 +2029,8 @@ lightningfast: &lightningfast
     - Esquiva: Evitar um ataque.
     - Velocidade ofuscante: Participar do Combate com todos os oponentes ao alcance de sua arma, como um único ataque. Se você atacar com uma arma de fogo, isso consome toda sua munição.
     - Precisão sobrenatural: Acerte o ponto fraco do seu oponente. Cause +1 Dano.
+
+velozcomoumraio: &lightningfast
 
 martialartsexpert: &martialartsexpert
   - '# Especialista em Artes Marciais'
@@ -1882,6 +2056,8 @@ martialartsexpert: &martialartsexpert
     - Desarmamento: Remover a arma de um oponente.
     - Arremesso: Tirar um oponente do lugar ou jogá-lo ao chão.
 
+especialistaemartesmarciais: &martialartsexpert
+
 officer: &officer
   - '# Oficial'
   - |
@@ -1900,6 +2076,8 @@ officer: &officer
     - Proteja-se!: Você ou um aliado recebem 2 Armadura contra um ataque à distância.
   - Você interpreta mal a situação. Escolha entre colocar a si mesmo ou um de seus aliados sob perigo. O Mestre faz Movimento pelo seu oponente.
 
+oficial: &officer
+
 ruthless: &ruthless
   - '# Implacável'
   - |
@@ -1915,6 +2093,8 @@ ruthless: &ruthless
     - Isca: Expor alguém ao perigo para você flanquear um inimigo (causar +1 Dano).
     - Sacrifício: Deixar alguém para o inimigo enquanto você escapa.
   - Ao contrário do esperado, você se ferra. O Mestre faz um Movimento.
+
+implacavel: &ruthless
 
 sniper: &sniper
   - '# Atirador de Elite'
@@ -1936,6 +2116,8 @@ sniper: &sniper
     - Você não revela sua posição.
   - O tiro não acertou onde você pretendia ou você revela sua posição ao inimigo – Há testemunhas, oponentes te perseguem quando você sair, ou outros problemas. O Mestre faz um Movimento.
 
+atiradordeelite: &sniper
+
 streetfighter: &streetfighter
   - '# Lutador de Rua'
   - |
@@ -1954,6 +2136,8 @@ streetfighter: &streetfighter
     - Golpe baixo: Atordoe um oponente por um momento, com um golpe sujo no olho, virilha, orelha, etc.
   - Você perde o foco e o controle. O Mestre faz um Movimento.
 
+lutadorderua: &streetfighter
+
 survivalinstinct: &survivalinstinct
   - '# Instinto de Sobrevivência'
   - |
@@ -1963,11 +2147,15 @@ survivalinstinct: &survivalinstinct
   - Você ignora seus ferimentos até terminar o conflito.
   - Você se esforça em excesso; seus ferimentos fazem você desmoronar após alguns instantes. Seguinte à sua próxima ação, o Mestre decide quando e como você desmaia.
 
+instintodesobrevivencia: &survivalinstinct
+
 arcaneresearcher: &arcaneresearcher
   - '# Pesquisador Arcano'
   - Ao se aventurar em planos alternativos de existência ou encontrar entidades de outras dimensões, você pode declarar que já leu sobre essa dimensão ou criatura antes. Pergunte ao Mestre o que foi aprendido com seus estudos prévios.
   - Ao se aventurar em planos alternativos de existência ou encontrar entidades de outras dimensões, você pode declarar que já leu sobre essa dimensão ou criatura antes. Pergunte ao Mestre o que foi aprendido com seus estudos prévios.
   - Ao se aventurar em planos alternativos de existência ou encontrar entidades de outras dimensões, você pode declarar que já leu sobre essa dimensão ou criatura antes. Pergunte ao Mestre o que foi aprendido com seus estudos prévios.
+
+pesquisadorarcano: &arcaneresearcher
 
 atanycost: &atanycost
   - '# Custe o que Custar'
@@ -1975,11 +2163,15 @@ atanycost: &atanycost
   - Ao desejar algo realmente, você pode receber +2 para uma rolagem, diminuindo a Estabilidade (−2).
   - Ao desejar algo realmente, você pode receber +2 para uma rolagem, diminuindo a Estabilidade (−2).
 
+custeoquecustar: &atanycost
+
 codeofhonor: &codeofhonor
   - '# Código de Honra'
   - Você segue um rigoroso código de honra. Decida a natureza dele. Ao correr riscos ou fazer sacrifícios em nome do seu código de honra, ganhe Estabilidade (+1).
   - Você segue um rigoroso código de honra. Decida a natureza dele. Ao correr riscos ou fazer sacrifícios em nome do seu código de honra, ganhe Estabilidade (+1).
   - Você segue um rigoroso código de honra. Decida a natureza dele. Ao correr riscos ou fazer sacrifícios em nome do seu código de honra, ganhe Estabilidade (+1).
+
+codigodehonra: &codeofhonor
 
 deadshot: &deadshot
   - '# Atirador'
@@ -1987,17 +2179,23 @@ deadshot: &deadshot
   - Você é um exímio atirador. Qualquer Dano que você cause com uma arma de fogo é considerada +1 Dano.
   - Você é um exímio atirador. Qualquer Dano que você cause com uma arma de fogo é considerada +1 Dano.
 
+atirador: &deadshot
+
 desperate: &desperate
   - '# Desesperado'
   - Ao tentar superar possibilidades esmagadoras, receba +1 em todas as rolagens até se livrar da ameaça em questão.
   - Ao tentar superar possibilidades esmagadoras, receba +1 em todas as rolagens até se livrar da ameaça em questão.
   - Ao tentar superar possibilidades esmagadoras, receba +1 em todas as rolagens até se livrar da ameaça em questão.
 
+desesperado: &desperate
+
 divinechampion: &divinechampion
   - '# Campeão Divino'
   - Ao lutar contra inimigos da sua divindade ou para proteger um objeto sagrado, você faz +1 Dano e recebe +1 Suportar Ferimento. Se perder essa batalha, sua divindade ficará irada e você recebe -1 constante para todas as ações relacionadas à sua divindade até reparar seu erro.
   - Ao lutar contra inimigos da sua divindade ou para proteger um objeto sagrado, você faz +1 Dano e recebe +1 Suportar Ferimento. Se perder essa batalha, sua divindade ficará irada e você recebe -1 constante para todas as ações relacionadas à sua divindade até reparar seu erro.
   - Ao lutar contra inimigos da sua divindade ou para proteger um objeto sagrado, você faz +1 Dano e recebe +1 Suportar Ferimento. Se perder essa batalha, sua divindade ficará irada e você recebe -1 constante para todas as ações relacionadas à sua divindade até reparar seu erro.
+
+campeaodivino: &divinechampion
 
 elitesport: &elitesport
   - '# Esporte de Elite'
@@ -2017,11 +2215,15 @@ elitesport: &elitesport
     - Beisebol / críquete / futebol americano / futebol / tênis: Você recebe +1 constante ao correr, arremessar ou receber arremessos.
     - Hóquei no gelo: Você recebe +1 em rolagens de Suportar Ferimento contra ataques de combate corpo a corpo.
 
+esportedeelite: &elitesport
+
 enduretrauma: &enduretrauma
   - '# Resistência à Trauma'
   - Você não é tão facilmente afetado por traumas quanto outros. Ao reduzir Estabilidade, reduza 1 nível a menos do que o normal.
   - Você não é tão facilmente afetado por traumas quanto outros. Ao reduzir Estabilidade, reduza 1 nível a menos do que o normal.
   - Você não é tão facilmente afetado por traumas quanto outros. Ao reduzir Estabilidade, reduza 1 nível a menos do que o normal.
+
+resistenciaatrauma: &enduretrauma
 
 eyeforaneye: &eyeforaneye
   - '# Olho por Olho'
@@ -2029,11 +2231,15 @@ eyeforaneye: &eyeforaneye
   - Ao sofrer uma lesão grave ou crítica, aponte quem você acredita ser o responsável. Receba +2 constante em todas as jogadas contra ele, para sempre. Todos as rolagens contra a pessoa contam, porém, rolagens visando família, amigos, lacaios e propriedades dela contam apenas se o Mestre considerar aplicável.
   - Ao sofrer uma lesão grave ou crítica, aponte quem você acredita ser o responsável. Receba +2 constante em todas as jogadas contra ele, para sempre. Todos as rolagens contra a pessoa contam, porém, rolagens visando família, amigos, lacaios e propriedades dela contam apenas se o Mestre considerar aplicável.
 
+olhoporolho: &eyeforaneye
+
 goodsamaritan: &goodsamaritan
   - '# Bom Samaritano'
   - Ao ajudar outra pessoa por sua conta, ganhe Estabilidade (+1).
   - Ao ajudar outra pessoa por sua conta, ganhe Estabilidade (+1).
   - Ao ajudar outra pessoa por sua conta, ganhe Estabilidade (+1).
+
+bomsamaritano: &goodsamaritan
 
 grittedteeth: &grittedteeth
   - '# Dentes Cerrados'
@@ -2041,11 +2247,15 @@ grittedteeth: &grittedteeth
   - Abuso, violência, automutilação e agressões tornaram-se familiares; a dor dificilmente te afeta. Você não sofre penalidades por ferimentos, sejam graves ou críticos.
   - Abuso, violência, automutilação e agressões tornaram-se familiares; a dor dificilmente te afeta. Você não sofre penalidades por ferimentos, sejam graves ou críticos.
 
+dentescerrados: &grittedteeth
+
 grudge: &grudge
   - '# Rancoroso'
   - Ao alguém arruinar seus planos, direta ou indiretamente, você recebe +1 constante contra ele até ter se vingado ou ser restituído igualmente pelo que perdeu.
   - Ao alguém arruinar seus planos, direta ou indiretamente, você recebe +1 constante contra ele até ter se vingado ou ser restituído igualmente pelo que perdeu.
   - Ao alguém arruinar seus planos, direta ou indiretamente, você recebe +1 constante contra ele até ter se vingado ou ser restituído igualmente pelo que perdeu.
+
+rancoroso: &grudge
 
 hardened: &hardened
   - '# Durão'
@@ -2053,11 +2263,15 @@ hardened: &hardened
   - Você recebe +1 constante para Suportar Ferimento.
   - Você recebe +1 constante para Suportar Ferimento.
 
+durao: &hardened
+
 jaded: &jaded
   - '# Exaurido'
   - Ao rolar (10–14) para Manter o Sangue-frio, você poderá suprimir suas emoções e adiar seus efeitos até a próxima cena.
   - Ao rolar (10–14) para Manter o Sangue-frio, você poderá suprimir suas emoções e adiar seus efeitos até a próxima cena.
   - Ao rolar (10–14) para Manter o Sangue-frio, você poderá suprimir suas emoções e adiar seus efeitos até a próxima cena.
+
+exaurido: &jaded
 
 manipulative: &manipulative
   - '# Manipulador'
@@ -2074,11 +2288,15 @@ manipulative: &manipulative
     - Receba +2 para Influenciar.
     - Receba +2 para Impedir.
 
+manipulador: &manipulative
+
 opportunist: &opportunist
   - '# Oportunista'
   - Ao sacrificar alguém para alcançar seus próprios objetivos, ganhe Estabilidade (+1).
   - Ao sacrificar alguém para alcançar seus próprios objetivos, ganhe Estabilidade (+1).
   - Ao sacrificar alguém para alcançar seus próprios objetivos, ganhe Estabilidade (+1).
+
+oportunista: &opportunist
 
 rage: &rage
   - '# Fúria'
@@ -2098,11 +2316,15 @@ rage: &rage
     - Ignore a dor: Receba +2 para Suportar Ferimento.
     - Frenesi: Chacoalhar a cabeça e ignorar influências psicológicas ou sobrenaturais.
 
+furia: &rage
+
 sealedfate: &sealedfate
   - '# Destino Selado'
   - (requer a Desvantagem Condenado) Ao receber um Ferimento Crítico, você poderá usar marcador 1 de Tempo de Condenado para estabilizar imediatamente o ferimento. Se você morrer, use dois marcadores de Tempo de Condenado e desperte, ferido e fraco, porém vivo. Todos os seus ferimentos terão se estabilizado.
   - (requer a Desvantagem Condenado) Ao receber um Ferimento Crítico, você poderá usar marcador 1 de Tempo de Condenado para estabilizar imediatamente o ferimento. Se você morrer, use dois marcadores de Tempo de Condenado e desperte, ferido e fraco, porém vivo. Todos os seus ferimentos terão se estabilizado.
   - (requer a Desvantagem Condenado) Ao receber um Ferimento Crítico, você poderá usar marcador 1 de Tempo de Condenado para estabilizar imediatamente o ferimento. Se você morrer, use dois marcadores de Tempo de Condenado e desperte, ferido e fraco, porém vivo. Todos os seus ferimentos terão se estabilizado.
+
+destinoselado: &sealedfate
 
 thirstforknowledge: &thirstforknowledge
   - '# Sede de Conhecimento'
@@ -2110,11 +2332,15 @@ thirstforknowledge: &thirstforknowledge
   - Ao descobrir novas informações sobre planos alternativos de existência, sobre uma entidade sobrenatural ou à respeito de um Poder Superior, ganhe Estabilidade (+1).
   - Ao descobrir novas informações sobre planos alternativos de existência, sobre uma entidade sobrenatural ou à respeito de um Poder Superior, ganhe Estabilidade (+1).
 
+sededeconhecimento: &thirstforknowledge
+
 tothelastbreath: &tothelastbreath
   - '# Até o Último Suspiro'
   - (requer a Desvantagem Condenado) Ao se recusar a desistir, mesmo com as probabilidades contra você, marque 1 Tempo para rolar novamente os dados.
   - (requer a Desvantagem Condenado) Ao se recusar a desistir, mesmo com as probabilidades contra você, marque 1 Tempo para rolar novamente os dados.
   - (requer a Desvantagem Condenado) Ao se recusar a desistir, mesmo com as probabilidades contra você, marque 1 Tempo para rolar novamente os dados.
+
+ateoultimosuspiro: &tothelastbreath
 
 watchers: &watchers
   - '# Vigilantes'
@@ -2122,17 +2348,23 @@ watchers: &watchers
   - Um grupo de pessoas misteriosas te protegem e vigiam a fim de mantê-lo vivo para seus próprios planos obscuros. Ao estar em perigo mortal, acione seus vigilantes. Se você fizer isso, o Mestre ganha 1 Reserva. Os vigilantes agem como uma quadrilha pequena/média/grande (2/3/3 Danos, 5/10/15 Ferimentos), dependendo do quão poderosa é a ameaça. A única motivação deles é mantê-lo a salvo. O Mestre também pode usar Reserva pelos vigilantes para que eles façam um Movimento contra você.
   - Um grupo de pessoas misteriosas te protegem e vigiam a fim de mantê-lo vivo para seus próprios planos obscuros. Ao estar em perigo mortal, acione seus vigilantes. Se você fizer isso, o Mestre ganha 1 Reserva. Os vigilantes agem como uma quadrilha pequena/média/grande (2/3/3 Danos, 5/10/15 Ferimentos), dependendo do quão poderosa é a ameaça. A única motivação deles é mantê-lo a salvo. O Mestre também pode usar Reserva pelos vigilantes para que eles façam um Movimento contra você.
 
+vigilantes: &watchers
+
 workaholic: &workaholic
   - '# Viciado em Trabalho'
   - Ao criar algo ou realizar um experimento, ganhe Estabilidade (+1).
   - Ao criar algo ou realizar um experimento, ganhe Estabilidade (+1).
   - Ao criar algo ou realizar um experimento, ganhe Estabilidade (+1).
 
+viciadoemtrabalho: &workaholic
+
 worldly: &worldly
   - '# Do Mundo'
   - Ao chegar a um novo local no mundo comum, decida se você já esteve lá antes. Caso sim, dê detalhes a respeito desse lugar importante para você. Além disso, decida se conheceu alguém ali e o que você deixou para trás. O Mestre dirá o que mudou desde então.
   - Ao chegar a um novo local no mundo comum, decida se você já esteve lá antes. Caso sim, dê detalhes a respeito desse lugar importante para você. Além disso, decida se conheceu alguém ali e o que você deixou para trás. O Mestre dirá o que mudou desde então.
   - Ao chegar a um novo local no mundo comum, decida se você já esteve lá antes. Caso sim, dê detalhes a respeito desse lugar importante para você. Além disso, decida se conheceu alguém ali e o que você deixou para trás. O Mestre dirá o que mudou desde então.
+
+domundo: &worldly
 
 services: &services
   - '# Serviços'
@@ -2155,11 +2387,15 @@ services: &services
     - Uma arma que possa utilizar contra seu inimigo (pode ser também uma criatura, conhecimento ou interferência direta da entidade).
     - Abertura de um portal para uma das dimensões.
 
+servicos: &services
+
 badreputation: &badreputation
   - '# Má Reputação'
   - Você se misturou, ninguém está tentando pegá-lo.
   - Você foi reconhecido. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento representando como sua má reputação persegue você. Ex: As pessoas reagem com medo e suspeita a seu respeito; uma multidão tenta linchá-lo para fazer justiça; sua propriedade é vandalizada; seus aliados voltam-se contra você, colocando-o sob o risco de perder o emprego, acordos e Relações.
   - Diversas pessoas te reconheceram. Raiva e medo controlam as ações delas. O Mestre ganha 3 Reservas. O Mestre pode usar Reserva para fazer um Movimento representando como sua má reputação persegue você. Ex: As pessoas reagem com medo e suspeita a seu respeito; uma multidão tenta linchá-lo para fazer justiça; sua propriedade é vandalizada; seus aliados voltam-se contra você, colocando-o sob o risco de perder o emprego, acordos e Relações.
+
+mareputacao: &badreputation
 
 broken: &broken
   - '# Fragmentado'
@@ -2167,11 +2403,15 @@ broken: &broken
   - Alguma experiência do passado despedaçou sua mente de tal forma que não é possível remendá-la. Como resultado, sua Estabilidade nunca fica acima de Perturbado (6).
   - Alguma experiência do passado despedaçou sua mente de tal forma que não é possível remendá-la. Como resultado, sua Estabilidade nunca fica acima de Perturbado (6).
 
+fragmentado: &broken
+
 competitor: &competitor
   - '# Competidor'
   - Você está seguro quanto ao seu competidor, por ora.
   - Você se descuidou. Seu competidor pode atacá-lo. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelo seu competidor. Ex: Seu competidor pode tomar o controle de alguns de seus negócios; descobrir um segredo seu; sabotar um de seus ativos; ferir ou comprar alguém de sua confiança.
   - Você deu ao seu competidor uma oportunidade de ouro, e ele age contra seus interesses. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelo seu competidor. Ex: Seu competidor pode tomar o controle de alguns de seus negócios; descobrir um segredo seu; sabotar um de seus ativos; ferir ou comprar alguém de sua confiança.
+
+competidor: &competitor
 
 condemned: &condemned
   - '# Condenado'
@@ -2191,11 +2431,15 @@ condemned: &condemned
     - Alguém próximo é afetado negativamente pelo seu destino.
     - Alguma coisa te dá falsas esperanças de escapar desse destino.
 
+condenado: &condemned
+
 cursed: &cursed
   - '# Amaldiçoado'
   - Você evita a influência da maldição temporariamente.
   - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento da maldição. Ex: Você ou alguém que você gosta acidenta-se; algo seu lhe é tirado; você tem visões aterrorizantes; você é forçado a tomar certas ações arriscando haver grandes consequências, caso se recuse.
   - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento da maldição. Ex: Você ou alguém que você gosta acidenta-se; algo seu lhe é tirado; você tem visões aterrorizantes; você é forçado a tomar certas ações arriscando haver grandes consequências, caso se recuse.
+
+amaldicoado: &cursed
 
 depression: &depression
   - '# Depressão'
@@ -2203,11 +2447,15 @@ depression: &depression
   - Você sente ansiedade temporária, diminuição em sua autoconfiança ou falta de força de vontade. Você sofre -1 na próxima rolagem.
   - Você se pune, sucumbindo à desesperança ou culpa. Reduza Estabilidade (-2). Sua letargia e desejo de autodestruição não partirão até que você entorpeça sua depressão com remédios, drogas ou álcool.
 
+depressao: &depression
+
 drugaddict: &drugaddict
   - '# Viciado em Drogas'
   - Sua vontade está sob controle, por enquanto.
   - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento pelo seu vício. Ex: Você não consegue resistir à vontade de usar a droga; ela acaba; você se torna devedor de uma pessoa perigosa; coloca-se em perigo sob influência de entorpecentes; arruína algo importante para você – como um relacionamento – enquanto estava sob influência dela.
   - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento pelo seu vício. Ex: Você não consegue resistir à vontade de usar a droga; ela acaba; você se torna devedor de uma pessoa perigosa; coloca-se em perigo sob influência de entorpecentes; arruína algo importante para você – como um relacionamento – enquanto estava sob influência dela.
+
+viciadoemdrogas: &drugaddict
 
 experimentgonewrong: &experimentgonewrong
   - '# Experimento Falho'
@@ -2215,11 +2463,15 @@ experimentgonewrong: &experimentgonewrong
   - Seu experimento está no seu calcanhar. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seu experimento. Ex: Ele te dá uma pista sobre a Verdade; sabota ou atrapalha sua pesquisa; exige algo em retribuição, por meio de ameaças; sequestra alguém com quem você se importa – possivelmente o devolvendo morto ou transformado.
   - Seu experimento está nas proximidades e age contra você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seu experimento. Ex: Ele te dá uma pista sobre a Verdade; sabota ou atrapalha sua pesquisa; exige algo em retribuição, por meio de ameaças; sequestra alguém com quem você se importa – possivelmente o devolvendo morto ou transformado.
 
+experimentofalho: &experimentgonewrong
+
 fanatic: &fanatic
   - '# Fanatismo'
   - Você mantém suas emoções sob controle.
   - Você se torna raivoso, confuso ou frustrado. Você recebe -1 na sua próxima rolagem.
   - Você é forçado a escolher entre tomar medidas para mudar a pessoa ou situação, a fim de se adequarem à sua ideologia, ou reduzir Estabilidade (-2).
+
+fanatismo: &fanatic
 
 greedy: &greedy
   - '# Ganancioso'
@@ -2227,11 +2479,15 @@ greedy: &greedy
   - O vazio dentro de você grita por mais. Enquanto a oportunidade existir e você não a aproveitar, sofrerá -1 constante para qualquer rolagem que fizer.
   - Você tem que tirar vantagem de cada oportunidade de ganhar mais riquezas, ou reduzir Estabilidade (-2).
 
+ganancioso: &greedy
+
 guilt: &guilt
   - '# Culpa'
   - Sua culpa não oprime sua mente no momento.
   - Você é lembrado de sua culpa. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua culpa. Ex: Os familiares daqueles feridos por você te procuram; demônios e outras criaturas são atraídas pelo seu sentimento de culpa; os mortos te assombram com visões e pesadelos; você adoece por razão da ansiedade e de autoquestionamento.
   - Sua culpa te pega de jeito. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua culpa. Ex: Os familiares daqueles feridos por você te procuram; demônios e outras criaturas são atraídas pelo seu sentimento de culpa; os mortos te assombram com visões e pesadelos; você adoece por razão da ansiedade e de autoquestionamento.
+
+culpa: &guilt
 
 harassed: &harassed
   - '# Hostilizado'
@@ -2239,11 +2495,15 @@ harassed: &harassed
   - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus assediadores. Ex: Alguém destrói sua propriedade ou posses; você é hostilizado e atacado por pessoas preconceituosas em relação a você; as autoridades tiram de você algo à força (direitos, propriedades, bens); alguém com quem você se preocupa é afetado por estar associado a você; seus direitos mais básicos são-lhe negados por conta de sua identidade.
   - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus assediadores. Ex: Alguém destrói sua propriedade ou posses; você é hostilizado e atacado por pessoas preconceituosas em relação a você; as autoridades tiram de você algo à força (direitos, propriedades, bens); alguém com quem você se preocupa é afetado por estar associado a você; seus direitos mais básicos são-lhe negados por conta de sua identidade.
 
+hostilizado: &harassed
+
 haunted: &haunted
   - '# Assombrado'
   - A entidade te deixa em paz.
   - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer um Movimento pela entidade. Ex: Ela requer um serviço e te ameaça de retaliação se for contrariada; ela possui seu corpo durante a noite ou revela uma pista do que ela é e do que quer de você.
   - O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer um Movimento pela entidade. Ex: Ela requer um serviço e te ameaça de retaliação se for contrariada; ela possui seu corpo durante a noite ou revela uma pista do que ela é e do que quer de você.
+
+assombrado: &haunted
 
 infirm: &infirm
   - '# Enfermo'
@@ -2251,11 +2511,15 @@ infirm: &infirm
   - Sua condição vem à tona, provocando dor e entorpecimento (-1 em todas as rolagens até que a cena termine).
   - Sua condição é agravada, resultando em risco a sua vida (Suportar Ferimento com 2 Dano).
 
+enfermo: &infirm
+
 involuntarymedium: &involuntarymedium
   - '# Médium Involuntário'
   - Você resiste à possessão.
   - A entidade ganha influência sobre você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome da entidade possessora. Ex: A entidade concede-lhe uma visão; faz uso do seu corpo; comunica-se com ou por meio de você; usa-o para tentar machucar alguém; segue-o escondido; exige algo de você; arrasta-o para outra dimensão.
   - A entidade ganha controle sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome da entidade possessora. Ex: A entidade concede-lhe uma visão; faz uso do seu corpo; comunica-se com ou por meio de você; usa-o para tentar machucar alguém; segue-o escondido; exige algo de você; arrasta-o para outra dimensão.
+
+mediuminvoluntario: &involuntarymedium
 
 jealousy: &jealousy
   - '# Invejoso'
@@ -2263,11 +2527,15 @@ jealousy: &jealousy
   - Você é afetado pela inveja e sofre -1 constante enquanto estiver na presença do sujeito, além de não conseguir ocultar seus desejos invejosos.
   - Você é consumido pela inveja. Precisa Manter o Sangue-frio para evitar machucar, destruir ou roubar do alvo de sua inveja.
 
+invejoso: &jealousy
+
 liar: &liar
   - '# Mentiroso'
   - Você manteve suas mentiras longe de maiores complicações.
   - Você contou mentira demais. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para perguntar “sobre o que você mentiu para essa pessoa?” quando um PJ encontrar-se com alguém conhecido, ou inventar uma mentira problemática que o PJ tenha contado no passado.
   - Sua rede de mentiras desfaz-se. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para perguntar “sobre o que você mentiu para essa pessoa?” quando um PJ encontrar-se com alguém conhecido, ou inventar uma mentira problemática que o PJ tenha contado no passado.
+
+mentiroso: &liar
 
 lostidentity: &lostidentity
   - '# Perda de Identidade'
@@ -2275,17 +2543,23 @@ lostidentity: &lostidentity
   - Você tem indícios de sua identidade verdadeira. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua identidade verdadeira. Ex: Você reconhece pessoas ou lugares desconhecidos; organizações ou indivíduos do seu passado entram em contato com você; sua velha identidade influencia seus pensamentos ou ações; você sofre flashbacks traumáticos.
   - Sua identidade verdadeira vem à tona. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por sua identidade verdadeira. Ex: Você reconhece pessoas ou lugares desconhecidos; organizações ou indivíduos do seu passado entram em contato com você; sua velha identidade influencia seus pensamentos ou ações; você sofre flashbacks traumáticos.
 
+perdadeidentidade: &lostidentity
+
 marked: &marked
   - '# Marcado'
   - Você ainda está no controle.
   - Você alimenta a escuridão. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão.
   - A escuridão ganha poder sobre você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pela escuridão que vive em você. Ex: A escuridão alimenta-se de sua energia vital; ela te obriga a cometer um assassinato para reabastecer sua energia; toma controle do seu corpo, deixando-lhe apenas memórias fragmentadas do que aconteceu; força-o a causar dano a alguém próximo; temporariamente transforma seu corpo em algo inumano. Talvez você precise Manter o Sangue-frio para resistir a influência da escuridão.
 
+marcado: &marked
+
 mentalcompulsion: &mentalcompulsion
   - '# Compulsão Mental'
   - Você controla suas compulsões e consegue focar em outras coisas.
   - Você fica distraído e recebe -1 constante para todas as rolagens, até se afastar da situação ou sucumbir à sua compulsão, cumprindo sua demanda.
   - Você se torna completamente obcecado por sua compulsão. Se focar em qualquer outra coisa, reduza Estabilidade (-2).
+
+compulsaomental: &mentalcompulsion
 
 nemesis: &nemesis
   - '# Nêmesis'
@@ -2299,11 +2573,15 @@ nightmares: &nightmares
   - Os pesadelos te atormentam. O Mestre pode fazer um Movimento por seus pesadelos. Ex: Você não consegue de jeito nenhum dormir à noite (-1 constante até conseguir); algo o segue de volta à realidade; os pesadelos trazem insights sobre a Verdade; você é forçado a processar algum trauma (Manter o Sangue-frio) ao acordar.
   - Os pesadelos te dominam completamente. Você fica preso no sonho até achar um jeito de acordar, e tudo que acontece lá também afeta o seu corpo adormecido.
 
+pesadelos: &nightmares
+
 oathofrevenge: &oathofrevenge
   - '# Juramento de Vingança'
   - Você se mantém no controle de sua natureza vingativa, podendo agir racionalmente.
   - Você não consegue concentrar-se em nada além de seu alvo. Receba -1 constante até cessar o envolvimento do alvo na cena em questão.
   - Você fica obcecado e só consegue agir em prol de sua vingança. Fazer qualquer outra coisa requer uma rolagem de Manter o Sangue-frio. Sua obsessão não é atenuada enquanto o alvo permanecer na mesma cena que você.
+
+juramentodevinganca: &oathofrevenge
 
 objectofdesire: &objectofdesire
   - '# Objeto de Desejo'
@@ -2311,11 +2589,15 @@ objectofdesire: &objectofdesire
   - Alguém passa a desejá-lo. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para incitar o desejo em uma pessoa, influenciando seu comportamento. Ex: Alguém fica descontroladamente apaixonado por você; tenta forçá-lo; dá fortemente em cima de você; fica com muitos ciúmes; tenta causar dano aos outros ou a si mesmo em nome do desejo que tem por você.
   - Um forte desejo é despertado em uma ou mais pessoas. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para incitar o desejo em uma pessoa, influenciando seu comportamento. Ex: Alguém fica descontroladamente apaixonado por você; tenta forçá-lo; dá fortemente em cima de você; fica com muitos ciúmes; tenta causar dano aos outros ou a si mesmo em nome do desejo que tem por você.
 
+objetodedesejo: &objectofdesire
+
 obsession: &obsession
   - '# Obsessão'
   - Você supera a sua obsessão no momento.
   - Sua obsessão influencia-lhe o comportamento. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer sua obsessão influenciar sua vida diária. Ex: Você é forçado a escolher entre se dedicar a ela ou perder Estabilidade; esquece-se de tarefas importantes, perde reuniões ou negligenciar suas Relações, apenas para focar em sua obsessão; ela influencia seus sonhos, dando-lhe visões e revelações. Em troca, o objeto de sua obsessão também o nota e tenta impedir suas investigações.
   - Sua obsessão domina-o completamente. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer sua obsessão influenciar sua vida diária. Ex: Você é forçado a escolher entre se dedicar a ela ou perder Estabilidade; esquece-se de tarefas importantes, perde reuniões ou negligenciar suas Relações, apenas para focar em sua obsessão; ela influencia seus sonhos, dando-lhe visões e revelações. Em troca, o objeto de sua obsessão também o nota e tenta impedir suas investigações.
+
+obsessao: &obsession
 
 owned: &owned
   - '# Propriedade'
@@ -2323,11 +2605,15 @@ owned: &owned
   - Seu antigo dono encontra seu rastro. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu antigo proprietário. Ex: Aparecer inesperadamente tentando convencê-lo a voltar; enviar capangas atrás de você; sequestrar ou ferir alguém com que você se importa; ameaçá-lo diretamente; destruir algo importante para você; tentar mutilá-lo para que ninguém mais o queira; matá-lo para que ninguém mais possa possui-lo.
   - Seu dono te acha. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos em nome de seu antigo proprietário. Ex: Aparecer inesperadamente tentando convencê-lo a voltar; enviar capangas atrás de você; sequestrar ou ferir alguém com que você se importa; ameaçá-lo diretamente; destruir algo importante para você; tentar mutilá-lo para que ninguém mais o queira; matá-lo para que ninguém mais possa possui-lo.
 
+propriedade: &owned
+
 phobia: &phobia
   - '# Fobia'
   - Você abriga um medo avassalador de alguma coisa. Escolha o estímulo a amedrontá-lo. Ao ser confrontado pelo objeto de sua fobia, você precisa Manter o Sangue-frio.
   - Você abriga um medo avassalador de alguma coisa. Escolha o estímulo a amedrontá-lo. Ao ser confrontado pelo objeto de sua fobia, você precisa Manter o Sangue-frio.
   - Você abriga um medo avassalador de alguma coisa. Escolha o estímulo a amedrontá-lo. Ao ser confrontado pelo objeto de sua fobia, você precisa Manter o Sangue-frio.
+
+fobia: &phobia
 
 rationalist: &rationalist
   - '# Racionalista'
@@ -2350,11 +2636,15 @@ rationalist: &rationalist
     - Você atrai entidades extradimensionais.
     - Sua consciência nega o que está diante de seus olhos, mesmo que isso o prejudique.
 
+racionalista: &rationalist
+
 repressedmemories: &repressedmemories
   - '# Memórias Reprimidas'
   - Você continua a suprimir suas memórias.
   - Parte das memórias voltam parcialmente à superfície em forma de flashbacks e/ou alucinações. Você precisa Manter o Sangue-frio.
   - Você é sufocado por suas memórias reprimidas, perdendo-se completamente nelas. O Mestre faz um Movimento difícil e você reduz Estabilidade (-2).
+
+memoriasreprimidas: &repressedmemories
 
 rival: &rival
   - '# Rival'
@@ -2368,6 +2658,8 @@ schizophrenia: &schizophrenia
   - O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para realizar Movimentos por sua esquizofrenia. Ex: Uma das alucinações toma forma física; você enxerga o ambiente à sua volta como hostil; você alucina terrivelmente; fica sujeito à visões obscuras (verdadeiras ou falsas); descobre que alguém à sua volta não é real.
   - A esquizofrenia domina-o. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para realizar Movimentos por sua esquizofrenia. Ex: Uma das alucinações toma forma física; você enxerga o ambiente à sua volta como hostil; você alucina terrivelmente; fica sujeito à visões obscuras (verdadeiras ou falsas); descobre que alguém à sua volta não é real.
 
+esquizofrenia: &schizophrenia
+
 sexualneurosis: &sexualneurosis
   - '# Neurose Sexual'
   - Você se controla.
@@ -2378,11 +2670,15 @@ sexualneurosis: &sexualneurosis
     - Os limites entre dimensões se enfraquecem; uma entidade do além sente seu rastro ou o do seu amante.
     - Seu parceiro torna-se obcecado por você e começa a te perseguir.
 
+neurosesexual: &sexualneurosis
+
 stalker: &stalker
   - '# Alvo de Perseguição'
   - Você está seguro por enquanto.
   - Seus inimigos te localizaram. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus perseguidores. Ex: Um associado confiável foi comprado por eles; uma pessoa amada por você ou um aliado desaparece; algo que você está tentando fazer é prejudicado por seus inimigos; eles deliberamente tentam machucá-lo.
   - Seus inimigos te alcançaram. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos por seus perseguidores. Ex: Um associado confiável foi comprado por eles; uma pessoa amada por você ou um aliado desaparece; algo que você está tentando fazer é prejudicado por seus inimigos; eles deliberamente tentam machucá-lo.
+
+alvodeperseguicao: &stalker
 
 victimofpassion: &victimofpassion
   - '# Vítima da Paixão'
@@ -2390,11 +2686,15 @@ victimofpassion: &victimofpassion
   - A paixão desperta dentro de você. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você.
   - Você está completamente nas garras da paixão. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para permitir que sua paixão guie suas ações. Ex: Você anseia descontroladamente pelo objeto de sua paixão – precisando procurá-lo ou reduzindo Estabilidade (-2); seu desejo arrasta-o para dentro de seus sonhos (talvez o aprisionando lá); sua paixão é maculada por ciúme e raiva – fazendo-o querer controlá-la e causar-lhe dano (Mantenha a Calma para resistir); seu anseio deixa-o fraco quando você está diante do objeto dessa paixão (-1 em toda rolagem enquanto compartilharem a mesma cena); sua paixão pode atrair criaturas da luxúria querendo alimentar-se dela ou fazer pactos com você.
 
+vitimadapaixao: &victimofpassion
+
 wanted: &wanted
   - '# Procurado'
   - Você está seguro, por enquanto.
   - Você cometeu um erro. O Mestre ganha 1 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelas autoridades. Ex: Seu retrato falado aparece na televisão e nos jornais; policiais tentam capturá-lo; alguém importante pra você é detido e interrogado; suas posses são confiscadas; seus amigos/familiares são colocados contra você.
   - Todos os olhos estão em você. O Mestre ganha 3 Reserva. O Mestre pode usar Reserva para fazer Movimentos pelas autoridades. Ex: Seu retrato falado aparece na televisão e nos jornais; policiais tentam capturá-lo; alguém importante pra você é detido e interrogado; suas posses são confiscadas; seus amigos/familiares são colocados contra você.
+
+procurado: &wanted
 
 performaritual: &performaritual
   - '# Realizar um Ritual'
@@ -2420,6 +2720,8 @@ performaritual: &performaritual
     - Oficial ou superior: Você tem proteção contra criaturas e energias mágicas enquanto permanecer dentro do círculo de proteção.
     - Adepto ou superior: O ritual afeta vários seres.
 
+realizarumritual: &performaritual
+
 adept: &adept
   - '# Adepto'
   - |
@@ -2432,11 +2734,15 @@ adept: &adept
     (requer: Oficial) Você está começando a obter informações mais aprofundadas sobre sua escola de magia. Escolha 1 novo Campo de Especialização.  Habilidade do Adepto: Poderoso. Ao Executar um Ritual, você pode escolher esta opção:
     - O ritual afeta vários seres.
 
+adepto: &adept
+
 asecondchance: &asecondchance
   - '# Uma Segunda Chance'
   - Você aprendeu um ritual antigo. Quando morre, pode optar por possuir o corpo de uma vítima humana. Você deve ter preparado a vítima com antecedência, e ela deve ser mantida confinada em seu santuário. A alma original da sua vítima não sai do corpo, mas é suprimida. Receba a Desvantagem Assombrado.
   - Você aprendeu um ritual antigo. Quando morre, pode optar por possuir o corpo de uma vítima humana. Você deve ter preparado a vítima com antecedência, e ela deve ser mantida confinada em seu santuário. A alma original da sua vítima não sai do corpo, mas é suprimida. Receba a Desvantagem Assombrado.
   - Você aprendeu um ritual antigo. Quando morre, pode optar por possuir o corpo de uma vítima humana. Você deve ter preparado a vítima com antecedência, e ela deve ser mantida confinada em seu santuário. A alma original da sua vítima não sai do corpo, mas é suprimida. Receba a Desvantagem Assombrado.
+
+umasegundachance: &asecondchance
 
 bewitching: &bewitching
   - '# Encantador'
@@ -2456,11 +2762,15 @@ bewitching: &bewitching
     - Influencie sua vítima como se você tivesse rolado um (15+).
     - Faça sua vítima desejar você.
 
+encantador: &bewitching
+
 commandingvoice: &commandingvoice
   - '# Voz Comandante'
   - A pessoa ou criatura deve obedecer à sua ordem, a menos que isso os cause dano direto.
   - A pessoa ou criatura deve obedecer à sua ordem, amenos que isso a exponha ao perigo.
   - A pessoa ou criatura age de forma imprevisível. O Mestre determina se eles resistem à ordem, se a interpretam mal, se executam suas instruções incorretamente, se ficam irritados com você ou se executam seu pedido, mas ganham um vínculo mágico com você que será explorado posteriormente. Ao fazer um pedido a um PJ, ele deve Manter o Sangue-frio. Se falhar, não poderá resistir ao pedido.
+
+vozcomandante: &commandingvoice
 
 darkaura: &darkaura
   - '# Aura Sombria'
@@ -2483,6 +2793,8 @@ darkaura: &darkaura
     - Você pode sentir a alma do seu alvo e perguntar se ele foi marcado ou contaminado por forças sobrenaturais.
     - Você amaldiçoa seu alvo. Seu corpo começa a se decompor, indicado por um Ferimento Grave que não pode ser curado até que ele encontre uma maneira de quebrar a maldição.
 
+aurasombria: &darkaura
+
 darkvision: &darkvision
   - '# Visão no Escuro'
   - |
@@ -2504,11 +2816,15 @@ darkvision: &darkvision
     - Mergulhar nas sombras: Você desaparece nas sombras.
     - Tornar-se um com a escuridão: Você se esconde tão bem que ninguém pode encontrá-lo.
 
+visaonoescuro: &darkvision
+
 divinestrength: &divinestrength
   - '# Força Divina'
   - Você pode deixar seu Poder Superior o imbuir com sua força. Ao canalizar a força do seu Poder Superior, você recebe +2 para Suportar Ferimentos e todos os seus ataques recebem +2 Danos pela duração da cena. Até que esse poder divino desapareça, ele se manifesta fisicamente em seu corpo; por exemplo, seus olhos ficam pretos, você irradia uma aura dourada ou as sombras das asas aparecem nas suas costas (o jogador descreve).
   - Você pode deixar seu Poder Superior o imbuir com sua força. Ao canalizar a força do seu Poder Superior, você recebe +2 para Suportar Ferimentos e todos os seus ataques recebem +2 Danos pela duração da cena. Até que esse poder divino desapareça, ele se manifesta fisicamente em seu corpo; por exemplo, seus olhos ficam pretos, você irradia uma aura dourada ou as sombras das asas aparecem nas suas costas (o jogador descreve).
   - Você pode deixar seu Poder Superior o imbuir com sua força. Ao canalizar a força do seu Poder Superior, você recebe +2 para Suportar Ferimentos e todos os seus ataques recebem +2 Danos pela duração da cena. Até que esse poder divino desapareça, ele se manifesta fisicamente em seu corpo; por exemplo, seus olhos ficam pretos, você irradia uma aura dourada ou as sombras das asas aparecem nas suas costas (o jogador descreve).
+
+forcadivina: &divinestrength
 
 ethereal: &ethereal
   - '# Etéreo'
@@ -2531,11 +2847,15 @@ ethereal: &ethereal
     - As armas me atravessam: Evite completamente os Danos físicos.
     - Incontrolável: Saia de um porão, cativeiro ou outros objetos físicos que o prendam.
 
+etereo: &ethereal
+
 experienced: &experienced
   - '# Experiente'
   - Você tem experiência e habilidades de vida de antes de se tornar Iluminado. Escolha 1 Vantagem qualquer de um Arquétipo Consciente.
   - Você tem experiência e habilidades de vida de antes de se tornar Iluminado. Escolha 1 Vantagem qualquer de um Arquétipo Consciente.
   - Você tem experiência e habilidades de vida de antes de se tornar Iluminado. Escolha 1 Vantagem qualquer de um Arquétipo Consciente.
+
+experiente: &experienced
 
 immunity: &immunity
   - '# Imunidade'
@@ -2561,17 +2881,23 @@ immunity: &immunity
     - Frio.
     - Produtos químicos (ácidos/venenos/drogas).
 
+imunidade: &immunity
+
 improviser2: &improviser2
   - '# Improvisador'
   - Você não sofre penalidades por Realizar um Ritual quando estiver fora do seu santuário.
   - Você não sofre penalidades por Realizar um Ritual quando estiver fora do seu santuário.
   - Você não sofre penalidades por Realizar um Ritual quando estiver fora do seu santuário.
 
+improvisador: &improviser2
+
 initiate: &initiate
   - '# Iniciante'
   - Você é um amador que recentemente começou a experimentar a magia.
   - Você é um amador que recentemente começou a experimentar a magia.
   - Você é um amador que recentemente começou a experimentar a magia.
+
+iniciante: &initiate
 
 invulnerability: &invulnerability
   - '# Invulnerabilidade'
@@ -2590,6 +2916,8 @@ invulnerability: &invulnerability
     - Armas de fogo.
     - Armas afiadas e de corte.
     - Armas de concussão.
+
+invulnerabilidade: &invulnerability
 
 journeyman: &journeyman
   - '# Oficial'
@@ -2615,17 +2943,23 @@ journeyman: &journeyman
     Ao Realizar um Ritual, você pode escolher esta opção:
     - Você tem proteção contra criaturas e energias mágicas enquanto permanecer dentro do círculo protetor.
 
+oficial: &journeyman
+
 manipulatetheillusion: &manipulatetheillusion
   - '# Manipular a Ilusão'
   - Você permite que a força esmagadora da Ilusão cancele a magia ou repreenda o ser.
   - Você permite que a força esmagadora da Ilusão cancele a magia ou repreenda o ser, mas há complicações inesperadas, tal como a magia ou o ser terem tempo de afetá-lo primeiro, ou seu esforço atrai atenção indesejada.
   - A Ilusão o rejeita temporariamente. Você pode ser sobrecarregado, transportado para outro lugar ou tornar-se alvo de seres que agora veem você claramente. O Mestre realiza um Movimento.
 
+manipularailusao: &manipulatetheillusion
+
 master: &master
   - '# Mestre'
   - (requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual.
   - (requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual.
   - (requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual.
+
+mestre: &master
 
 masterofrites: &masterofrites
   - '# Mestre de Ritos'
@@ -2645,11 +2979,15 @@ masterofrites: &masterofrites
     - Convocar seu Poder Superior e pedir algo. Este pode se revelar a você através de visões, Encarnações ou através do sacerdócio (sejam anjos ou nefaritas). O Mestre determina se você pode receber o que está solicitando e, em caso afirmativo, o que é exigido em troca.
   - O ritual falhou por algum motivo. O Mestre realiza um Movimento.
 
+mestrederitos: &masterofrites
+
 memoriesofpastlives: &memoriesofpastlives
   - '# Memórias de Vidas Passadas'
   - Escolha 1 Vantagem qualquer de um arquétipo Consciente.
   - Escolha 1 Vantagem qualquer de um arquétipo Consciente.
   - Escolha 1 Vantagem qualquer de um arquétipo Consciente.
+
+memoriasdevidaspassadas: &memoriesofpastlives
 
 mindmanipulator: &mindmanipulator
   - '# Manipulador Mental'
@@ -2675,17 +3013,23 @@ mindmanipulator: &mindmanipulator
     - Pesquisar informações específicas que a pessoa deva conhecer.
     - Plantar uma memória falsa. Ela desaparecerá dentro de algumas horas, mas parecerá real até então.
 
+manipuladormental: &mindmanipulator
+
 naturalweapons: &naturalweapons
   - '# Armas Naturais'
   - Seu corpo incorpora armas naturais. Isso pode incluir garras, presas, tentáculos, chifres, membros blindados ou alterações tecnológicas, como lâminas de faca integradas. Ao Participar de Combate (corpo a corpo) usando suas armas naturais, você causa 3 Danos.
   - Seu corpo incorpora armas naturais. Isso pode incluir garras, presas, tentáculos, chifres, membros blindados ou alterações tecnológicas, como lâminas de faca integradas. Ao Participar de Combate (corpo a corpo) usando suas armas naturais, você causa 3 Danos.
   - Seu corpo incorpora armas naturais. Isso pode incluir garras, presas, tentáculos, chifres, membros blindados ou alterações tecnológicas, como lâminas de faca integradas. Ao Participar de Combate (corpo a corpo) usando suas armas naturais, você causa 3 Danos.
 
+armasnaturais: &naturalweapons
+
 openerofways: &openerofways
   - '# Abridor de Caminhos'
   - O portal é estável e permanece assim durante toda a cena ou até você fechá-lo. Se você se aventurar pelo portal, poderá reconstruí-lo levando de volta ao mesmo local à vontade.
   - O portal permanece aberto por apenas alguns minutos e então é fechado. Se você se aventurar pelo portal, deverá abrir um novo para retornar.
   - O portal é instável; pode fechar a qualquer momento, levar a um local indeterminado, interferir na Ilusão ou atrair os guardiões da Ilusão. O Mestre faz um Movimento.
+
+abridordecaminhos: &openerofways
 
 quick: &quick
   - '# Rápido'
@@ -2711,17 +3055,23 @@ quick: &quick
     - Ataque com a velocidade de um raio: Envolva alguém em combate (corpo a corpo) tão rapidamente que este não terá chance de Evitar Danos.
     - Torrente de golpes: Entre em combate com um alvo adicional, acima do número de alvos que o ataque normalmente permite.
 
+rapido: &quick
+
 regenerate: &regenerate
   - '# Regenerar'
   - Seu corpo se cura estranhamente rápido. Ferimentos graves desaparecem completamente em poucas horas e ferimentos críticos cicatrizam em um dia. No entanto, alguns ferimentos podem deixar cicatrizes feias e tecido deformado.
   - Seu corpo se cura estranhamente rápido. Ferimentos graves desaparecem completamente em poucas horas e ferimentos críticos cicatrizam em um dia. No entanto, alguns ferimentos podem deixar cicatrizes feias e tecido deformado.
   - Seu corpo se cura estranhamente rápido. Ferimentos graves desaparecem completamente em poucas horas e ferimentos críticos cicatrizam em um dia. No entanto, alguns ferimentos podem deixar cicatrizes feias e tecido deformado.
 
+regenerar: &regenerate
+
 summoner: &summoner
   - '# Invocador'
   - Você convoca criatura(s) que obedecerão a sua vontade por um dia.
   - Você convoca a criatura(s) que obedecem às suas ordens para a cena ou cumprem uma única ordem que leve mais tempo. Você não tem controle total sobre a(s) criatura(s), que agirão por conta própria e interpretarão suas ordens como desejarem.
   - Você convoca criatura(s) que não estão sob seu poder, mas agem de acordo com seus próprios caprichos.
+
+invocador: &summoner
 
 talisman: &talisman
   - '# Talismã'
@@ -2736,6 +3086,8 @@ talisman: &talisman
     - Encontre um portal de volta às terras dos vivos.
     - Fortaleça seus sentidos contra as influências do reino da Morte ou a magia de seus habitantes.
   - O talismã falha. O Mestre faz um Movimento.
+
+talisma: &talisman
 
 telekinesis: &telekinesis
   - '# Telecinese'
@@ -2755,11 +3107,15 @@ telekinesis: &telekinesis
     - Lançar um objeto de tamanho médio [2] [Distância: sala, diminui Estabilidade em –1, por exemplo, televisão, mesa, poltrona].
     - Lançar um objeto grande [3] [Distância: sala, diminui Estabilidade em –2, por exemplo, carro, navio, contêiner].
 
+telecinese: &telekinesis
+
 templars: &templars
   - '# Templários'
   - Se o cumprimento da missão estiver razoavelmente no domínio de sua capacidade, eles executam suas tarefas com perfeição e exatamente conforme as instruções.
   - A missão sofre algum tipo de complicação. Talvez funcione bem, mas tenha consequências inesperadas mais tarde ou as coisas não funcionaram como você pretendia.
   - Algo está errado. Talvez a missão não seja concluída de acordo com as instruções, surgem sérios problemas como consequência ou alguns ou todos os templários são feridos, capturados ou mortos.
+
+templarios: &templars
 
 unnaturallystrong: &unnaturallystrong
   - '# Força Anormal'
@@ -2776,11 +3132,15 @@ unnaturallystrong: &unnaturallystrong
     - Esmagar [4] [Distância: braço, vítima já deve estar bloqueada]. Você também é capaz de levantar e atirar objetos pesados como um ataque à distância:
     - Jogar objetos pesados [3] [Distância: sala].
 
+forcaanormal: &unnaturallystrong
+
 unyielding: &unyielding
   - '# Firme'
   - Mantendo-se incólume e diminuindo a Estabilidade em –1, você recebe +2 em todas as rolagens para Manter o Sangue-frio sempre que resistir à influência mágica durante esta cena.
   - Mantendo-se incólume e diminuindo a Estabilidade em –1, você recebe +2 em todas as rolagens para Manter o Sangue-frio sempre que resistir à influência mágica durante esta cena.
   - Mantendo-se incólume e diminuindo a Estabilidade em –1, você recebe +2 em todas as rolagens para Manter o Sangue-frio sempre que resistir à influência mágica durante esta cena.
+
+firme: &unyielding
 
 branded: &branded
   - '# Visado'
@@ -2788,11 +3148,15 @@ branded: &branded
   - Uma entidade se apegou a você. O Mestre recebe 1 Reserva. O Mestre pode gastar uma Reserva para fazer um Movimento pelas entidades. Uma entidade pode possuir alguém próximo ao personagem, revelar-se a ele, desafiá-lo ou persegui-lo. Um portal pode abrir para o reino da Morte. Uma ou várias entidades podem tentar enganá-lo ou atraí-lo para o reino da Morte, ou um ser malévolo ganha posse dele.
   - Várias entidades ou um ser mortal muito poderoso estão em seu caminho. O Mestre recebe 3 Reservas. O Mestre pode gastar uma Reserva para fazer um Movimento pelas entidades. Uma entidade pode possuir alguém próximo ao personagem, revelar-se a ele, desafiá-lo ou persegui-lo. Um portal pode abrir para o reino da Morte. Uma ou várias entidades podem tentar enganá-lo ou atraí-lo para o reino da Morte, ou um ser malévolo ganha posse dele.
 
+visado: &branded
+
 creator: &creator
   - '# Criador'
   - Você está a salvo de seu criador.
   - Seu criador capta seu rastro. O Mestre recebe 1 Reserva. O Mestre pode gastar uma Reserva para fazer um Movimento para o seu criador. Por exemplo, seu criador pode enviar capangas ou outros experimentos para trazê-lo de volta, atacar alguém que você goste, dar a você um pedido que espera que siga, ou fornecer informações inesperadas sobre sua origem ou objetivo.
   - Você se revelou ao seu criador. O Mestre recebe 3 Reservas. O Mestre pode gastar uma Reserva para fazer um Movimento para o seu criador. Por exemplo, seu criador pode enviar capangas ou outros experimentos para trazê-lo de volta, atacar alguém que você goste, dar a você um pedido que espera que siga, ou fornecer informações inesperadas sobre sua origem ou objetivo.
+
+criador: &creator
 
 persecutors: &persecutors
   - '# Atormentadores'
@@ -2800,17 +3164,23 @@ persecutors: &persecutors
   - Você deixou um rastro para seus atormentadores. O Mestre recebe 1 Reserva. O Mestre pode gastar Reserva para fazer um Movimento por seus atormentadores. Eles podem montar uma armadilha, rastrear seu esconderijo, se infiltrar em seu ambiente, capturar um de seus aliados, roubar ou destruir algo que você possui, aparecer inesperadamente ou encontrar um objetivo em comum com algum de seus outros inimigos.
   - Seus atormentadores o rastrearam. O Mestre recebe 3 Reservas. O Mestre pode gastar Reserva para fazer um Movimento por seus atormentadores. Eles podem montar uma armadilha, rastrear seu esconderijo, se infiltrar em seu ambiente, capturar um de seus aliados, roubar ou destruir algo que você possui, aparecer inesperadamente ou encontrar um objetivo em comum com algum de seus outros inimigos.
 
+atormentadores: &persecutors
+
 protege: &protege
   - '# Pupilo'
   - Nada acontece.
   - Seu pupilo aparece. O Mestre recebe 1 Reserva. O Mestre pode gastar uma Reserva para fazer um Movimento para seu pupilo. Por exemplo, alguém o extorque ameaçando prejudicar seu pupilo, ou ele pode voltar para pedir sua ajuda, sabotar um de seus planos, (ameaçar) revelar um de seus segredos, roubar algo de você ou caluniá-lo.
   - Seu pupilo coloca você em uma situação difícil. O Mestre recebe 3 Reservas. O Mestre pode gastar uma Reserva para fazer um Movimento para seu pupilo. Por exemplo, alguém o extorque ameaçando prejudicar seu pupilo, ou ele pode voltar para pedir sua ajuda, sabotar um de seus planos, (ameaçar) revelar um de seus segredos, roubar algo de você ou caluniá-lo.
 
+pupilo: &protege
+
 bloodthirst: &bloodthirst
   - '# Sede de Sangue'
   - Você deve beber sangue humano para sobreviver. Se você não bebeu o equivalente ao suprimento de sangue de um adulto ou três crianças no espaço de duas semanas, você sofre um Ferimento Crítico por definhamento, que só pode ser curado bebendo o sangue que você precisa – se não mais. Se você passar uma semana adicional sem sustento, você acaba em coma. Na semana seguinte, morre, a menos que alguém o alimente com sangue humano. Para beber sangue sem causar 2 Danos é preciso Agir Sob Pressão.
   - Você deve beber sangue humano para sobreviver. Se você não bebeu o equivalente ao suprimento de sangue de um adulto ou três crianças no espaço de duas semanas, você sofre um Ferimento Crítico por definhamento, que só pode ser curado bebendo o sangue que você precisa – se não mais. Se você passar uma semana adicional sem sustento, você acaba em coma. Na semana seguinte, morre, a menos que alguém o alimente com sangue humano. Para beber sangue sem causar 2 Danos é preciso Agir Sob Pressão.
   - Você deve beber sangue humano para sobreviver. Se você não bebeu o equivalente ao suprimento de sangue de um adulto ou três crianças no espaço de duas semanas, você sofre um Ferimento Crítico por definhamento, que só pode ser curado bebendo o sangue que você precisa – se não mais. Se você passar uma semana adicional sem sustento, você acaba em coma. Na semana seguinte, morre, a menos que alguém o alimente com sangue humano. Para beber sangue sem causar 2 Danos é preciso Agir Sob Pressão.
+
+sededesangue: &bloodthirst
 
 boundtohigherpower: &boundtohigherpower
   - '# Conexão ao Poder Superior'
@@ -2826,17 +3196,23 @@ boundtohigherpower: &boundtohigherpower
         - O Poder Superior marca você, para que todos possam testemunhar seus pecados (por exemplo, estigmas, parte do corpo deformada, parte da sua carne apodrece, um símbolo marcado em seu rosto, olhos não naturais ou ficar totalmente sem pelos).
         - O Poder Superior lhe dá uma missão e retira as Habilidades que lhe foram conferidas até que você a complete.
 
+conexaoaopodersuperior: &boundtohigherpower
+
 cannibalism: &cannibalism
   - '# Canibalismo'
   - Você deve consumir carne humana para sobreviver. Se você não comeu o equivalente a um adulto ou três crianças no espaço de duas semanas, você sofre um Ferimento Crítico por decomposição, que só pode ser curado com a carne que você precisa – se não mais. Se você passar uma semana adicional sem sustento, você acaba em coma. Na semana seguinte, você morre, a menos que alguém lhe dê carne humana.
   - Você deve consumir carne humana para sobreviver. Se você não comeu o equivalente a um adulto ou três crianças no espaço de duas semanas, você sofre um Ferimento Crítico por decomposição, que só pode ser curado com a carne que você precisa – se não mais. Se você passar uma semana adicional sem sustento, você acaba em coma. Na semana seguinte, você morre, a menos que alguém lhe dê carne humana.
   - Você deve consumir carne humana para sobreviver. Se você não comeu o equivalente a um adulto ou três crianças no espaço de duas semanas, você sofre um Ferimento Crítico por decomposição, que só pode ser curado com a carne que você precisa – se não mais. Se você passar uma semana adicional sem sustento, você acaba em coma. Na semana seguinte, você morre, a menos que alguém lhe dê carne humana.
 
+canibalismo: &cannibalism
+
 controlledbyexternalforce: &controlledbyexternalforce
   - '# Controlado por Força Externa'
   - Você fez um pacto com um demônio ou Poder Superior (veja o Capítulo 21: Pactos e Magia). Poderia ser um nefarita, um anjo, um deus esquecido, ou mesmo um Arconte ou um Anjo da Morte. Se o pacto for quebrado de alguma forma, você poderá perder seus poderes, se tornará humano novamente ou será aniquilado.
   - Você fez um pacto com um demônio ou Poder Superior (veja o Capítulo 21: Pactos e Magia). Poderia ser um nefarita, um anjo, um deus esquecido, ou mesmo um Arconte ou um Anjo da Morte. Se o pacto for quebrado de alguma forma, você poderá perder seus poderes, se tornará humano novamente ou será aniquilado.
   - Você fez um pacto com um demônio ou Poder Superior (veja o Capítulo 21: Pactos e Magia). Poderia ser um nefarita, um anjo, um deus esquecido, ou mesmo um Arconte ou um Anjo da Morte. Se o pacto for quebrado de alguma forma, você poderá perder seus poderes, se tornará humano novamente ou será aniquilado.
+
+controladoporforcaexterna: &controlledbyexternalforce
 
 fieldofexpertise: &fieldofexpertise
   - '# Campo de Especialização'
@@ -2862,17 +3238,23 @@ fieldofexpertise: &fieldofexpertise
     - Afetar os vivos.
     - Amarrar e exorcizar.
 
+campodeespecializacao: &fieldofexpertise
+
 huntinginstincts: &huntinginstincts
   - '# Instintos de Caça'
   - Você mantém seus Instintos de Caça sob controle.
   - Se você optar por resistir à caçar sua presa, isso o esgotará mentalmente. Estabilidade −1.
   - Você deve ter sua presa agora. Se não pode, começa a se sentir terrível. Estabilidade −4.
 
+instintosdecaca: &huntinginstincts
+
 inhumanappearance: &inhumanappearance
   - '# Aparência Inumana'
   - Você parece totalmente inumano e deve usar um disfarce para poder existir perto dos outros. Por exemplo, sua pele pode estar apodrecendo e descascando, partes do corpo são deformadas, seus membros são deformados, objetos mecânicos foram integrados sob sua pele ou você tem características de insetos ou de aranhas. Quando os seres humanos percebem sua verdadeira aparência, eles são tomados pelo nojo, medo e pânico.
   - Você parece totalmente inumano e deve usar um disfarce para poder existir perto dos outros. Por exemplo, sua pele pode estar apodrecendo e descascando, partes do corpo são deformadas, seus membros são deformados, objetos mecânicos foram integrados sob sua pele ou você tem características de insetos ou de aranhas. Quando os seres humanos percebem sua verdadeira aparência, eles são tomados pelo nojo, medo e pânico.
   - Você parece totalmente inumano e deve usar um disfarce para poder existir perto dos outros. Por exemplo, sua pele pode estar apodrecendo e descascando, partes do corpo são deformadas, seus membros são deformados, objetos mecânicos foram integrados sob sua pele ou você tem características de insetos ou de aranhas. Quando os seres humanos percebem sua verdadeira aparência, eles são tomados pelo nojo, medo e pânico.
+
+aparenciainumana: &inhumanappearance
 
 sensitivity: &sensitivity
   - '# Sensibilidade'
@@ -2904,11 +3286,15 @@ sensitivity: &sensitivity
     - Água (receba 2 Danos quando exposto à água em sua pele).
     - Madeira.
 
+sensibilidade: &sensitivity
+
 soulthirst: &soulthirst
   - '# Sede de Alma'
   - Você deve se alimentar da força vital das pessoas para sobreviver. Beber da alma de uma pessoa geralmente ocorre durante o sexo ou beijando / tocando uma pessoa adormecida ou inconsciente. Para sobreviver, você deve devorar o equivalente de uma alma humana por semana (10 pontos de Estabilidade). Pode ser uma vítima que você devore totalmente – deixando uma casca apática quando você acordar – ou várias vítimas, das quais você esteja se aproveitando pouco a pouco de cada uma de suas forças vitais. Qualquer pessoa submetida à Sede da Alma que não seja devorada vai aos poucos perdendo sua força vital, tornando-se pálida e deprimida (Estabilidade de -1 a 9). Quando a Estabilidade da vítima chega a 0 (Arruinado), você devora os restos finais de sua alma. Se você não devorar o equivalente a uma alma humana a cada semana, perde uma quantidade de Estabilidade igual à que faltava (ou seja, se você não tem 3 Estabilidade de alimentação no final da semana, perde 3 Estabilidade). Se a sua Estabilidade chegar a 0 devido a isso, você se tornará um fantasma etéreo até que, mais uma vez, tenha a chance de devorar almas humanas.
   - Você deve se alimentar da força vital das pessoas para sobreviver. Beber da alma de uma pessoa geralmente ocorre durante o sexo ou beijando / tocando uma pessoa adormecida ou inconsciente. Para sobreviver, você deve devorar o equivalente de uma alma humana por semana (10 pontos de Estabilidade). Pode ser uma vítima que você devore totalmente – deixando uma casca apática quando você acordar – ou várias vítimas, das quais você esteja se aproveitando pouco a pouco de cada uma de suas forças vitais. Qualquer pessoa submetida à Sede da Alma que não seja devorada vai aos poucos perdendo sua força vital, tornando-se pálida e deprimida (Estabilidade de -1 a 9). Quando a Estabilidade da vítima chega a 0 (Arruinado), você devora os restos finais de sua alma. Se você não devorar o equivalente a uma alma humana a cada semana, perde uma quantidade de Estabilidade igual à que faltava (ou seja, se você não tem 3 Estabilidade de alimentação no final da semana, perde 3 Estabilidade). Se a sua Estabilidade chegar a 0 devido a isso, você se tornará um fantasma etéreo até que, mais uma vez, tenha a chance de devorar almas humanas.
   - Você deve se alimentar da força vital das pessoas para sobreviver. Beber da alma de uma pessoa geralmente ocorre durante o sexo ou beijando / tocando uma pessoa adormecida ou inconsciente. Para sobreviver, você deve devorar o equivalente de uma alma humana por semana (10 pontos de Estabilidade). Pode ser uma vítima que você devore totalmente – deixando uma casca apática quando você acordar – ou várias vítimas, das quais você esteja se aproveitando pouco a pouco de cada uma de suas forças vitais. Qualquer pessoa submetida à Sede da Alma que não seja devorada vai aos poucos perdendo sua força vital, tornando-se pálida e deprimida (Estabilidade de -1 a 9). Quando a Estabilidade da vítima chega a 0 (Arruinado), você devora os restos finais de sua alma. Se você não devorar o equivalente a uma alma humana a cada semana, perde uma quantidade de Estabilidade igual à que faltava (ou seja, se você não tem 3 Estabilidade de alimentação no final da semana, perde 3 Estabilidade). Se a sua Estabilidade chegar a 0 devido a isso, você se tornará um fantasma etéreo até que, mais uma vez, tenha a chance de devorar almas humanas.
+
+sededealma: &soulthirst
 
 symbolbondage: &symbolbondage
   - '# Amarração Simbólica'
@@ -2916,8 +3302,12 @@ symbolbondage: &symbolbondage
   - Você está vinculado a um símbolo. Pode ser qualquer coisa, de uma joia a um prédio ou uma tatuagem no corpo de outra pessoa. Sempre que o símbolo é danificado, você sofre ferimentos semelhantes. Se o símbolo for destruído, você também será. Enquanto o símbolo permanecer intacto, você não poderá realmente morrer; levantando-se do túmulo, se for enterrado. No entanto, se alguém descobrir o símbolo, poderá ganhar poder sobre você – até convocá-lo a fazer a sua vontade. Além disso, enquanto possuírem o símbolo, você não poderá prejudicar o portador dele.
   - Você está vinculado a um símbolo. Pode ser qualquer coisa, de uma joia a um prédio ou uma tatuagem no corpo de outra pessoa. Sempre que o símbolo é danificado, você sofre ferimentos semelhantes. Se o símbolo for destruído, você também será. Enquanto o símbolo permanecer intacto, você não poderá realmente morrer; levantando-se do túmulo, se for enterrado. No entanto, se alguém descobrir o símbolo, poderá ganhar poder sobre você – até convocá-lo a fazer a sua vontade. Além disso, enquanto possuírem o símbolo, você não poderá prejudicar o portador dele.
 
+amarracaosimbolica: &symbolbondage
+
 uncontrolledshapeshifting: &uncontrolledshapeshifting
   - '# Mutação Descontrolada'
   - Você mantém sua forma humana.
   - Você ganha algumas características inumanas.
   - Você se contorce em algo totalmente inumano. O Mestre assume o controle do seu personagem até que o efeito desapareça, no máximo uma cena completa após a sua transformação.
+
+mutacaodescontrolada: &uncontrolledshapeshifting
