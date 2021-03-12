@@ -29,13 +29,17 @@ help="""
 !movimento xxx -1 - realiza um movimento xxx com um modificador negativo de -1
 !movimento xxx +2 - realiza um movimento xxx com um modificador positivo de +2
 
+O gatilho para ativar o movimento pelo bot pode ser:
+- !m
+- !movimento
+
 Movimentos:
 - Use o nome completo do movimento (em minúsculas, sem espaços) ao jogar.
   Por exemplo, para jogar 'Observar uma Situação' com um bônus de +2, use:
-  !movimento observarumasituacao +2
+  !m observarumasituacao +2
 - Atalhos estão disponíveis para os movimentos mais usados (veja abaixo).
   Por exemplo, para jogar 'Evitar Ferimento' com um bônus de +1, use:
-  !movimento ef +1
+  !m ef +1
 
 # Atalhos de movimentos:
 - Evitar Dano (ed): jogue + Reflexos
@@ -71,8 +75,9 @@ async def on_message(message):
     ## case insensitive
     message.content=message.content.lower()
 
-    ## Respond if user sends "!movimento"
-    if message.content.startswith('!movimento'):
+    ## Respond if user sends "!movimento" or its short aliases
+    triggers = ('!movimento ', '!m ')
+    if message.content.startswith(triggers):
 
         ## Split into into "!move", the type of Move to undertake, the modifier (if any), and a comment (if any).
         bits = message.content.split(" ")
