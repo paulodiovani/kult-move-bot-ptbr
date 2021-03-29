@@ -18,7 +18,7 @@ gap = ''
 
 moves = all_moves.moves
 
-help="""
+help='''
 # Como usar:
 
 !movimento ? - exibe esta mensagem
@@ -55,7 +55,7 @@ Movimentos:
 - Investigar (inv): jogue + Razão
 - Ajudar ou Atrapalhar (aoa): jogue + Atributo
 - Movimento fora do padrão (mov): jogue + Modificador
-"""
+'''
 
 ## Get discord connection
 client = discord.Client()
@@ -65,11 +65,13 @@ client = discord.Client()
 async def on_message(message):
 
     ## Bot info
-    info=""
-    info += "# KultMoveBotBr\n"
-    info += "Código-fonte disponível em: https://github.com/paulodiovani/kult-move-bot-ptbr"
-    ## Collect server install info
-    info += "Atualmente rodando em " + str(len(list(client.guilds))) + " servidores Discord.\n"
+    nl='\n'
+    info=f'''
+# KultMoveBotBr
+Código-fonte disponível em: https://github.com/paulodiovani/kult-move-bot-ptbr
+Atualmente rodando em {len(list(client.guilds))} servidores Discord:
+- {'{nl}- '.join(map(lambda g: g.name, list(client.guilds)))}
+'''
 
     ## Converts move command to lowercase, making it
     ## case insensitive
