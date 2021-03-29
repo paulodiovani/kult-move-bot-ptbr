@@ -65,12 +65,12 @@ client = discord.Client()
 async def on_message(message):
 
     ## Bot info
-    nl='\n'
+    guildList='\n- '.join(map(lambda g: g.name, list(client.guilds)))
     info=f'''
 # KultMoveBotBr
 Código-fonte disponível em: https://github.com/paulodiovani/kult-move-bot-ptbr
 Atualmente rodando em {len(list(client.guilds))} servidores Discord:
-- {'{nl}- '.join(map(lambda g: g.name, list(client.guilds)))}
+- {guildList}
 '''
 
     ## Converts move command to lowercase, making it
