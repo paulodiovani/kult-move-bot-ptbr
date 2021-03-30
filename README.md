@@ -11,8 +11,8 @@ Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot).
 ## Traduçao para Português do Brasil (em progresso)
 
 - [x] Movimentos Básicos
-- [ ] Vantagens
-- [ ] Desvantagens
+- [x] Vantagens
+- [x] Desvantagens
 - [x] Instruções
   + [ ] Instruções de como rodar localmente
 - [x] Ajuda e exemplos
