@@ -6,53 +6,6 @@ Versão em Português do Brasil. 🇧🇷
 
 Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot).
 
-- Veja abaixo instruções de uso
-
-## Traduçao para Português do Brasil (em progresso)
-
-- [x] Movimentos Básicos
-- [x] Vantagens
-- [x] Desvantagens
-- [x] Instruções
-  + [ ] Instruções de como rodar localmente
-- [x] Ajuda e exemplos
-
-### Como colaborar
-
-- [Abra pull requests][creating-a-pr] com traduções diretamente em `all_moves.yml`
-- Reporte bugs ou problemas de tradução como [Issues][issues]
-- Jogue KULT e divulgue o Bot
-
-[creating-a-pr]: https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
-[issues]: https://github.com/paulodiovani/kult-move-bot-ptbr/issues
-
-#### Desenvolvimento Local
-
-Você vai precisar de:
-
-- python 3
-- pipenv
-
-Instruções:
-
-1. Crie um app no Discord via https://discord.com/developers/applications
-2. Clique em **Bot** no painel esquerdo e copie a **TOKEN** do seu Bot
-3. Crie um arquivo `.env` (use o modelo `.env.sample`) e cole sua **TOKEN**
-4. Instale as dependencias e inicie o bot
-    ```bash
-    pipenv install
-    pipenv run bot
-    ```
-
-### Agradecimentos
-
-- Admins do Discord de KULT BR
-- Buró Editora, que trouxe este excelente RPG para o Brasil
-
-## Servidores Brasileiros do KULT no Discord
-
-- KULT Brasil
- 
 ## Instalação
 
 Instale em um servidor do Discord (você vai precisar de privilégios de admin) pelo link:
@@ -109,3 +62,40 @@ Movimentos:
 - Ajudar ou Atrapalhar (aoa): jogue + Atributo
 - Movimento fora do padrão (mov): jogue + Modificador
 ```
+
+## Servidores Brasileiros do KULT no Discord
+
+- [KULT Brasil](https://discord.gg/H4wWwxmaHZ)
+
+### Como colaborar
+
+- [Abra pull requests][creating-a-pr] com traduções diretamente em `all_moves.yml`
+- Reporte bugs ou problemas de tradução como [Issues][issues]
+- Jogue KULT e divulgue o Bot
+
+[creating-a-pr]: https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
+[issues]: https://github.com/paulodiovani/kult-move-bot-ptbr/issues
+
+#### Desenvolvimento Local
+
+Você vai precisar de:
+
+- python 3
+- pipenv
+
+Instruções:
+
+1. Crie um app no Discord via https://discord.com/developers/applications
+2. Clique em **Bot** no painel esquerdo e copie a **TOKEN** do seu Bot
+3. Crie um arquivo `.env` (use o modelo `.env.sample`) e cole sua **TOKEN**
+4. Instale as dependencias e inicie o bot
+    ```bash
+    pipenv install
+    pipenv run bot
+    ```
+
+### Agradecimentos
+
+- Admins do Discord de KULT BR
+- Buró Editora, que trouxe este excelente RPG para o Brasil
+
