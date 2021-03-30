@@ -67,7 +67,7 @@ Movimentos:
 
 - [KULT Brasil](https://discord.gg/H4wWwxmaHZ)
 
-### Como colaborar
+## Como colaborar
 
 - [Abra pull requests][creating-a-pr] com traduções diretamente em `all_moves.yml`
 - Reporte bugs ou problemas de tradução como [Issues][issues]
@@ -76,7 +76,7 @@ Movimentos:
 [creating-a-pr]: https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
 [issues]: https://github.com/paulodiovani/kult-move-bot-ptbr/issues
 
-#### Desenvolvimento Local
+### Desenvolvimento Local
 
 Você vai precisar de:
 
@@ -93,9 +93,3 @@ Instruções:
     pipenv install
     pipenv run bot
     ```
-
-### Agradecimentos
-
-- Admins do Discord de KULT BR
-- Buró Editora, que trouxe este excelente RPG para o Brasil
-
