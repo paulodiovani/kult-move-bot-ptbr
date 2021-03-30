@@ -26,6 +26,24 @@ Baseado no [rpgmik/KultMoveBot](https://github.com/rpgmik/KultMoveBot).
 [creating-a-pr]: https://docs.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
 [issues]: https://github.com/paulodiovani/kult-move-bot-ptbr/issues
 
+#### Desenvolvimento Local
+
+Você vai precisar de:
+
+- python 3
+- pipenv
+
+Instruções:
+
+1. Crie um app no Discord via https://discord.com/developers/applications
+2. Clique em **Bot** no painel esquerdo e copie a **TOKEN** do seu Bot
+3. Crie um arquivo `.env` (use o modelo `.env.sample`) e cole sua **TOKEN**
+4. Instale as dependencias e inicie o bot
+    ```bash
+    pipenv install
+    pipenv run bot
+    ```
+
 ### Agradecimentos
 
 - Admins do Discord de KULT BR
