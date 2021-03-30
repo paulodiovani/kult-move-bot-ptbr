@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"discord.py" = "<2.0.0,>=1.6.0"
+PyYAML = "<6.0.0,>=5.4.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+bot = "python kultMoveBot.py"
