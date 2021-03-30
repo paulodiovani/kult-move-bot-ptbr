@@ -1,8 +1,10 @@
 # Changelog
 
-## 2021-03-30 Adiciona CHANGELOG
+## 2021-03-30 Adiciona CHANGELOG, instruções e pipenv
 
 - Adiciona este CHANGELOG
+- Instruções de como rodar localmente
+- Usa pipenv
 
 ## 2021-03-29 Correção do comando info
 
