@@ -3,6 +3,7 @@
 ## Bot needs to be given message read and send permissions on the Discord server.
 ## Need to install the discord.py API wrapper (e.g., via: pip install discord.py)
 
+from fuzzywuzzy import fuzz
 import os
 import random
 import discord
@@ -69,8 +70,8 @@ client = discord.Client()
 async def on_message(message):
 
     ## Bot info
-    guildList='\n- '.join(map(lambda g: g.name, list(client.guilds)))
-    info=f'''
+    guildList = '\n- '.join(map(lambda g: g.name, list(client.guilds)))
+    info =f'''
 # KultMoveBotBr
 Código-fonte disponível em: https://github.com/paulodiovani/kult-move-bot-ptbr
 Atualmente rodando em {len(list(client.guilds))} servidores Discord:
@@ -104,11 +105,13 @@ Atualmente rodando em {len(list(client.guilds))} servidores Discord:
                 if len(search) <= 3:
                     dice += 'A busca precisa ter 4 ou mais caracteres.'
                 else:
-                    moveList = list(filter(lambda m: search in m, list(moves)))
+                    moveList = list(moves)
+                    filteredList = list(filter(lambda m: fuzz.partial_ratio(search, m) >= 80, moveList))
 
-                    if len(moveList) >= 1:
-                        moveListStr = '\n- '.join(moveList)
-                        dice += f'Movimentos similares a "{search}":\n- {moveListStr}'
+                    if len(filteredList) >= 1:
+                        filteredList.sort()
+                        printableList = '\n- '.join(filteredList)
+                        dice += f'Movimentos similares a "{search}":\n- {printableList}'
                     else:
                         dice += f'Nenhum movimento similar a "{search}" encontrado.'
 
