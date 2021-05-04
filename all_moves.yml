@@ -77,35 +77,41 @@ engageincombat: *eic
 participardocombate: *eic
 pdc: *eic
 
-ion: &ion
+io: &io
   - '# Influenciar um PdM'
-  - O PdM faz o que lhe foi pedido.
   - |
-    Ele faz o que lhe foi pedido, mas o Mestre escolhe entre:
-    - Pedir uma compensação maior do que a oferecida.
-    - Surgir complicações no futuro.
-    - Aceitar, mas mudar de ideia e se arrepender depois.
-  - Sua tentativa tem repercussão diferente da pretendida. O Mestre realiza um Movimento.
-
-influenceothernpc: *ion
-influenciarumpdm: *ion
-ipm: *ion
-
-iop: &iop
-  - '# Influenciar um Pj'
+    Ao influenciar um PdM:
+      O PdM faz o que lhe foi pedido.
+    Ao Influenciar um PJ:
+      Duas das opções abaixo.
+      - Ele quer fazer o que você pediu e recebe +1 para sua próxima rolagem, caso ele o fizer.
+      - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
   - |
-    Duas das opções abaixo.
-    - Ele quer fazer o que você pediu e recebe +1 para sua próxima rolagem, caso ele o fizer.
-    - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
+    Ao influenciar um PdM:
+      Ele faz o que lhe foi pedido, mas o Mestre escolhe entre:
+      - Pedir uma compensação maior do que a oferecida.
+      - Surgir complicações no futuro.
+      - Aceitar, mas mudar de ideia e se arrepender depois.
+    Ao Influenciar um PJ:
+      Uma opção.
+      - Ele quer fazer o que você pediu e recebe +1 para sua próxima rolagem, caso ele o fizer.
+      - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
   - |
-    Uma opção.
-    - Ele quer fazer o que você pediu e recebe +1 para sua próxima rolagem, caso ele o fizer.
-    - Ele está preocupado com as consequências de não fazer o que você pediu e recebe -1 de Estabilidade, caso não o fizer.
-  - O personagem dele recebe +1 a próxima rolagem contra você. O Mestre realiza um Movimento.
+    Ao influenciar um PdM:
+      Sua tentativa tem repercussão diferente da pretendida. O Mestre realiza um Movimento.
+    Ao Influenciar um PJ:
+      O personagem dele recebe +1 a próxima rolagem contra você. O Mestre realiza um Movimento.
 
-influenceotherpc: *iop
-influenciarumpj: *iop
-ipj: *iop
+influenceother: *io
+influenceothernpc: *io
+influenceotherpc: *io
+influenciar: *io
+influenciarumpdm: *io
+influenciarumpj: *io
+ipn: *io
+ipm: *io
+iop: *io
+ipj: *io
 
 sti: &sti
   - '# Ver Através da Ilusão'
