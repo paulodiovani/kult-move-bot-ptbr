@@ -3,6 +3,7 @@
 ## Bot needs to be given message read and send permissions on the Discord server.
 ## Need to install the discord.py API wrapper (e.g., via: pip install discord.py)
 
+from fuzzywuzzy import fuzz
 import os
 import random
 import discord
@@ -21,13 +22,18 @@ moves = all_moves.moves
 help='''
 # Como usar:
 
-!movimento ? - exibe esta mensagem
-!movimento help - exibe esta mensagem
-!movimento ajuda - exibe esta mensagem
-!movimento info - exibe informações do Bot
-!movimento xxx - realiza um movimento xxx
-!movimento xxx -1 - realiza um movimento xxx com um modificador negativo de -1
-!movimento xxx +2 - realiza um movimento xxx com um modificador positivo de +2
+!movimento ?
+!movimento help
+!movimento ajuda        - exibe esta mensagem
+!movimento info         - exibe informações do Bot
+!movimento / xxx
+!movimento s xxx
+!movimento search xxx
+!movimento p xxx
+!movimento procurar xxx - procura e lista movimentos similares a xxx
+!movimento xxx          - realiza um movimento xxx
+!movimento xxx -1       - realiza um movimento xxx com um modificador negativo de -1
+!movimento xxx +2       - realiza um movimento xxx com um modificador positivo de +2
 
 O gatilho para ativar o movimento pelo bot pode ser:
 - !m
@@ -47,8 +53,7 @@ Movimentos:
 - Manter o Sangue-frio (msf): jogue + Força de Vontade
 - Agir Sob Pressão (asp): jogue + Sangue-frio
 - Participar do Combate (pdc): jogue + Violência
-- Influenciar um PdM (ipm): jogue + Carisma
-- Influenciar um Pj (ipj): jogue + Carisma
+- Influenciar (io): jogue + Carisma
 - Ver Através da Ilusão (vai): jogue + Alma
 - Ler uma Pessoa (lup): jogue + Intuição
 - Observar uma Situação (oas): jogue + Percepção
@@ -65,8 +70,8 @@ client = discord.Client()
 async def on_message(message):
 
     ## Bot info
-    guildList='\n- '.join(map(lambda g: g.name, list(client.guilds)))
-    info=f'''
+    guildList = '\n- '.join(map(lambda g: g.name, list(client.guilds)))
+    info =f'''
 # KultMoveBotBr
 Código-fonte disponível em: https://github.com/paulodiovani/kult-move-bot-ptbr
 Atualmente rodando em {len(list(client.guilds))} servidores Discord:
@@ -94,6 +99,21 @@ Atualmente rodando em {len(list(client.guilds))} servidores Discord:
 
             elif bits[1] in ["info"]:
                 dice += info
+
+            elif bits[1] in ["/", "s", "search", "p", "procurar"]:
+                search = bits[2]
+                if len(search) <= 3:
+                    dice += 'A busca precisa ter 4 ou mais caracteres.'
+                else:
+                    moveList = list(moves)
+                    filteredList = list(filter(lambda m: fuzz.partial_ratio(search, m) >= 80, moveList))
+
+                    if len(filteredList) >= 1:
+                        filteredList.sort()
+                        printableList = '\n- '.join(filteredList)
+                        dice += f'Movimentos similares a "{search}":\n- {printableList}'
+                    else:
+                        dice += f'Nenhum movimento similar a "{search}" encontrado.'
 
             elif bits[1] not in moves:
                 dice += 'Favor, espeficique um Movimento (ou "!movimento ?" para ajuda)'

@@ -78,7 +78,7 @@ participardocombate: *eic
 pdc: *eic
 
 io: &io
-  - '# Influenciar um PdM'
+  - '# Influenciar'
   - |
     Ao influenciar um PdM:
       O PdM faz o que lhe foi pedido.
