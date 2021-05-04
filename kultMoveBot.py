@@ -95,6 +95,19 @@ Atualmente rodando em {len(list(client.guilds))} servidores Discord:
             elif bits[1] in ["info"]:
                 dice += info
 
+            elif bits[1] in ["/", "s", "search", "p", "procurar"]:
+                search = bits[2]
+                if len(search) <= 3:
+                    dice += 'A busca precisa ter 4 ou mais caracteres.'
+                else:
+                    moveList = list(filter(lambda m: search in m, list(moves)))
+
+                    if len(moveList) >= 1:
+                        moveListStr = '\n- '.join(moveList)
+                        dice += f'Movimentos similares a "{search}":\n- {moveListStr}'
+                    else:
+                        dice += f'Nenhum movimento similar a "{search}" encontrado.'
+
             elif bits[1] not in moves:
                 dice += 'Favor, espeficique um Movimento (ou "!movimento ?" para ajuda)'
 
