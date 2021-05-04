@@ -21,13 +21,18 @@ moves = all_moves.moves
 help='''
 # Como usar:
 
-!movimento ? - exibe esta mensagem
-!movimento help - exibe esta mensagem
-!movimento ajuda - exibe esta mensagem
-!movimento info - exibe informações do Bot
-!movimento xxx - realiza um movimento xxx
-!movimento xxx -1 - realiza um movimento xxx com um modificador negativo de -1
-!movimento xxx +2 - realiza um movimento xxx com um modificador positivo de +2
+!movimento ?
+!movimento help
+!movimento ajuda        - exibe esta mensagem
+!movimento info         - exibe informações do Bot
+!movimento / xxx
+!movimento s xxx
+!movimento search xxx
+!movimento p xxx
+!movimento procurar xxx - procura e lista movimentos similares a xxx
+!movimento xxx          - realiza um movimento xxx
+!movimento xxx -1       - realiza um movimento xxx com um modificador negativo de -1
+!movimento xxx +2       - realiza um movimento xxx com um modificador positivo de +2
 
 O gatilho para ativar o movimento pelo bot pode ser:
 - !m
@@ -47,8 +52,7 @@ Movimentos:
 - Manter o Sangue-frio (msf): jogue + Força de Vontade
 - Agir Sob Pressão (asp): jogue + Sangue-frio
 - Participar do Combate (pdc): jogue + Violência
-- Influenciar um PdM (ipm): jogue + Carisma
-- Influenciar um Pj (ipj): jogue + Carisma
+- Influenciar (io): jogue + Carisma
 - Ver Através da Ilusão (vai): jogue + Alma
 - Ler uma Pessoa (lup): jogue + Intuição
 - Observar uma Situação (oas): jogue + Percepção
