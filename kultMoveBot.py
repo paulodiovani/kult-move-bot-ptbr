@@ -89,21 +89,22 @@ Atualmente rodando em {len(list(client.guilds))} servidores Discord:
         ## Split into into "!move", the type of Move to undertake, the modifier (if any), and a comment (if any).
         bits = message.content.split(" ")
 
-        dice = '```md\n'
+        response = f'{message.author.mention},'
+        response += '```md\n'
         if len(bits)==1:
-            dice += 'Favor, espeficique um Movimento (ou "!movimento ?" para ajuda)'
+            response += 'Favor, espeficique um Movimento (ou "!movimento ?" para ajuda)'
 
         if len(bits)>1:
             if bits[1] in ["?", "help", "ajuda"]:
-                dice += help
+                response += help
 
             elif bits[1] in ["info"]:
-                dice += info
+                response += info
 
             elif bits[1] in ["/", "s", "search", "p", "procurar"]:
                 search = bits[2]
                 if len(search) <= 3:
-                    dice += 'A busca precisa ter 4 ou mais caracteres.'
+                    response += 'A busca precisa ter 4 ou mais caracteres.'
                 else:
                     moveList = list(moves)
                     filteredList = list(filter(lambda m: fuzz.partial_ratio(search, m) >= 80, moveList))
@@ -111,12 +112,12 @@ Atualmente rodando em {len(list(client.guilds))} servidores Discord:
                     if len(filteredList) >= 1:
                         filteredList.sort()
                         printableList = '\n- '.join(filteredList)
-                        dice += f'Movimentos similares a "{search}":\n- {printableList}'
+                        response += f'Movimentos similares a "{search}":\n- {printableList}'
                     else:
-                        dice += f'Nenhum movimento similar a "{search}" encontrado.'
+                        response += f'Nenhum movimento similar a "{search}" encontrado.'
 
             elif bits[1] not in moves:
-                dice += 'Favor, espeficique um Movimento (ou "!movimento ?" para ajuda)'
+                response += 'Favor, espeficique um Movimento (ou "!movimento ?" para ajuda)'
 
             elif bits[1] in moves:
                 roll = [random.randint(1,10), random.randint(1,10)]
@@ -142,21 +143,21 @@ Atualmente rodando em {len(list(client.guilds))} servidores Discord:
                 else:
                     outcome = options[2]
 
-                dice += options[0]
-                dice += "\nRESULTADO: "
-                dice += str(roll[0])
-                dice += " + "
-                dice += str(roll[1])
-                dice += mod
-                dice += " = "
-                dice += str(result)
-                dice += "\nEFEITO: "
-                dice += outcome
+                response += options[0]
+                response += "\nRESULTADO: "
+                response += str(roll[0])
+                response += " + "
+                response += str(roll[1])
+                response += mod
+                response += " = "
+                response += str(result)
+                response += "\nEFEITO: "
+                response += outcome
 
-        dice += '```'
+        response += '```'
 
         ## Send message to channel
-        await message.channel.send(dice)
+        await message.channel.send(response)
 
 ## Write login details locally (i.e., on linux box where bot code is running)
 @client.event
