@@ -1,5 +1,19 @@
 # Changelog
 
+## 2021-05-18 Bug Fixes
+
+- Corrige movimento `Manter o Sangue Frio` (aliases: `msf`, `kit`)
+- Corrige outros movimentos com problemas
+
+## 2021-05-13 Menciona usuário
+
+- Menciona usuário que realizou movimento
+
+## 2021-04-05 Busca de movimentos, atualiza Influenciar
+
+- Combina Influenciar em um único movimento (para PJs e PNJs)
+- Adiciona comando `procurar` (aliases: `p`, `search`, `s`, `/`)
+
 ## 2021-03-30 Adiciona CHANGELOG, instruções e pipenv
 
 - Adiciona este CHANGELOG

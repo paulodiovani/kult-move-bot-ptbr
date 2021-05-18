@@ -44,7 +44,8 @@ kit: &kit
      - Ficar obcecado (+1 Relação ao que quer que tenha causado a condição).
      - Ficar distraído (-2 em situações nas quais a condição o limita).
      - Você será assombrado pela experiência posteriormente.
-  - A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
+  - |
+    A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
 
 keepittogether: *kit
 manterosanguefrio: *kit
@@ -225,21 +226,21 @@ artistictalent: &artistictalent
     Escolha até duas opções a qualquer momento da cena.
     Opções:
     - Eles querem ver mais da sua arte.
-    - "Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.)."
+    - Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.).
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
   - |
     Escolha uma opção a qualquer momento da cena.
     Opções:
     - Eles querem ver mais da sua arte.
-    - "Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.)."
+    - Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.).
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
   - |
     Escolha uma opção, porém uma complicação/ameaça manifesta-se. O Mestre faz um Movimento.
     Opções:
     - Eles querem ver mais da sua arte.
-    - "Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.)."
+    - Eles são afetados pela emoção que você quis transmitir (Ex: raiva, pesar, medo, alegria, luxúria, etc.).
     - Eles te admiram (ganhe +1 constante com a audiência durante a cena).
     - A atenção deles se fixa em você durante toda a apresentação.
 
@@ -251,21 +252,21 @@ authority: &authority
     Durante a sessão, escolha até três opções.
     Opções:
     - Influenciar alguém que ouviu falar da sua autoridade no seu campo acadêmico, como se rolado um (15+).
-    - "Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos."
+    - Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos.
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
   - |
     Durante a sessão, escolha até duas opções.
     Opções:
     - Influenciar alguém que ouviu falar da sua autoridade no seu campo acadêmico, como se rolado um (15+).
-    - "Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos."
+    - Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos.
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
   - |
     Durante a sessão você pode escolher uma opção, porém atrairá atenção indesejada de perseguidores, adversários profissionais, competidores ou forças hostis. O Mestre faz um Movimento por eles, em algum ponto da sessão.
     Opções:
     - Influenciar alguém que ouviu falar da sua autoridade no seu campo acadêmico, como se rolado um (15+).
-    - "Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos."
+    - Ganhar acesso aos recursos de alguma universidade. Ex: Instalações, pesquisadores ou arquivos científicos.
     - Fazer um pronunciamento sobre algo ou alguém nos meios de comunicação social.
     - Conquistar acesso a pessoas ou lugares, sob o pretexto de pesquisa ou estudo.
 
@@ -585,7 +586,7 @@ burglar: &burglar
     - Desarmar um alarme.
     - Quebrar o segredo de um cofre em menos de dois minutos.
     - Conseguir evitar que alguém o descubra.
-    - "Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança."
+    - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
   - |
     Escolha duas opções. Gaste-as a qualquer momento na cena.
     Opções:
@@ -593,7 +594,7 @@ burglar: &burglar
     - Desarmar um alarme.
     - Quebrar o segredo de um cofre em menos de dois minutos.
     - Conseguir evitar que alguém o descubra.
-    - "Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança."
+    - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
   - |
     Escolha uma opção, porém surge um problema. O Mestre faz um Movimento.
     Opções:
@@ -601,7 +602,7 @@ burglar: &burglar
     - Desarmar um alarme.
     - Quebrar o segredo de um cofre em menos de dois minutos.
     - Conseguir evitar que alguém o descubra.
-    - "Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança."
+    - Fazer alguém acreditar que você pertence àquele lugar, por tempo limitado. Ex: Fingindo-se de segurança.
 
 gatuno: *burglar
 
@@ -2961,9 +2962,9 @@ manipularailusao: *manipulatetheillusion
 
 master: &master
   - '# Mestre'
-  - (requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual.
-  - (requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual.
-  - (requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual.
+  - "(requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual."
+  - "(requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual."
+  - "(requer: Adepto) Você é uma das poucas pessoas vivas com habilidades mágicas semelhantes a seres dos reinos sobrenaturais. Escolha 1 novo Campo de Especialização. Além disso, você sempre pode escolher 1 efeito adicional ao Realizar um Ritual."
 
 mestre: *master
 
