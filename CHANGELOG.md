@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-05-18 Bug Fixes
+
+- Corrige movimento `Manter o Sangue Frio` (aliases: `msf`, `kit`)
+
 ## 2021-05-13 Menciona usuário
 
 - Menciona usuário que realizou movimento

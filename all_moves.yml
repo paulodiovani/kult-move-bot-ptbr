@@ -44,7 +44,8 @@ kit: &kit
      - Ficar obcecado (+1 Relação ao que quer que tenha causado a condição).
      - Ficar distraído (-2 em situações nas quais a condição o limita).
      - Você será assombrado pela experiência posteriormente.
-  - A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
+  - |
+    A tensão é demais para sua mente aguentar. O Mestre escolhe sua reação: encolher-se impotente na presença da ameaça, entrar em pânico e sem controle de suas ações, sofrer trauma emocional (-2 Estabilidade) ou sofrer trauma transformador (-4 Estabilidade).
 
 keepittogether: *kit
 manterosanguefrio: *kit
