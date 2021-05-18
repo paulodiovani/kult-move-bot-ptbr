@@ -3,6 +3,7 @@
 ## 2021-05-18 Bug Fixes
 
 - Corrige movimento `Manter o Sangue Frio` (aliases: `msf`, `kit`)
+- Corrige outros movimentos com problemas
 
 ## 2021-05-13 Menciona usuário
 
