@@ -12,6 +12,11 @@ Instale em um servidor do Discord (você vai precisar de privilégios de admin) 
 
 https://discordapp.com/api/oauth2/authorize?client_id=812513909198159904&permissions=0&scope=bot
 
+### ⚠ Horas ativas ⏱
+
+Devido à limitação de tempo para aplicativos gratuítos no Heroku, onde o Bot está hospedado,
+atualmente ele fica ativo apenas **das 19:00 às 01:00**, todos os dias.
+
 ## Instruções de uso
 
 Uma vez instalado, digite
